@@ -1,0 +1,13 @@
+{kind: identifier, spelling: "^"}
+{kind: identifier, spelling: "^$50.20"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "^"}
+{kind: identifier, spelling: "^$1000000.23"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "^"}
+{kind: identifier, spelling: "^$5.23"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "^"}
+{kind: identifier, spelling: "^$100.00"}
+{kind: newline, spelling: "\n"}
+Read 12 tokens

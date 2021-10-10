@@ -1,0 +1,34 @@
+// Average
+
+
+class Main{
+	function void main(){
+	var int x;
+	var DP y;
+	var DP sum;
+	var DP i;
+	var DP average;
+	var DP constant;
+
+	let x = Unix.readInt("");
+	let sum = DP.new(0);
+	let i = DP.new(0);
+	let average = DP.new(0);
+	let constant = DP.new(1);
+
+	while (~(x=0)){
+	let y = DP.new(x);
+
+	do DP.add(sum, sum, y);
+	do DP.add(i, i, constant);
+
+	let x = Unix.readInt("");
+
+	}
+	do DP.divide(average, sum, i);
+	do Unix.printString(DP.toString(average));
+	do Unix.println();
+	return;
+
+	}
+}

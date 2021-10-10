@@ -1,0 +1,6 @@
+ID,Kind,Path,Program,Arguments,Output,Error,Status,Short-Description
+a1,filter,Add,disassembler,N,1,1,0,Add Final
+a2,filter,Max,disassembler,N,1,1,0,Max Final
+a3,filter,Pong,disassembler,N,1,1,0,Pong Final
+a4,filter,Rect,disassembler,N,1,1,0,Rect Final
+a5,filter,Badalu,disassembler,N,1,1,0,Empty

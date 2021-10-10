@@ -1,0 +1,12 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_function()
+    3: parse_subr_body()
+error: ***** Error:
+ 5:         }
+ 6: }
+    ^
+subroutine must finish with a return statement
+

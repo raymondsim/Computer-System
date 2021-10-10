@@ -1,0 +1,5 @@
+***** Fatal error!
+   8: @2$
+   9: D=A
+        ^
+Expected: "=" but found: "A"

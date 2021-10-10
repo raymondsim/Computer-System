@@ -1,0 +1,5 @@
+***** Fatal error!
+   2: $
+   3: constructor   if-
+                      ^
+Expected: "a character that can start a token" but found: "-"

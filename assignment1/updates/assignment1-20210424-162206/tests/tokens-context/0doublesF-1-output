@@ -1,0 +1,63 @@
+Read 36 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 35
+    {kind: newline, spelling: "\n", line: 2, column: 42}
+token_context:
+   1:  0 4 36 0x12.1F25 888 34 0b000.00 235 0xFF.FFFFF000$
+   2:  0.0 4.36 12.125 012.125 888 34 0.00 235.$
+                                               ^
+
+----------------
+token: 30
+    {kind: number, spelling: "34", line: 2, column: 30}
+token_context:
+   1:  0 4 36 0x12.1F25 888 34 0b000.00 235 0xFF.FFFFF000$
+   2:  0.0 4.36 12.125 012.125 888 34
+                                   ^
+
+----------------
+token: 25
+    {kind: space, spelling: " ", line: 2, column: 17}
+token_context:
+   1:  0 4 36 0x12.1F25 888 34 0b000.00 235 0xFF.FFFFF000$
+   2:  0.0 4.36 12.125 
+                      ^
+
+----------------
+token: 20
+    {kind: number, spelling: "0", line: 2, column: 2}
+token_context:
+   1:  0 4 36 0x12.1F25 888 34 0b000.00 235 0xFF.FFFFF000$
+   2:  0.0
+       ^
+
+----------------
+token: 15
+    {kind: number, spelling: "235", line: 1, column: 35}
+token_context:
+   1:  0 4 36 0x12.1F25 888 34 0b000.00 235
+                                        ^
+
+----------------
+token: 10
+    {kind: space, spelling: " ", line: 1, column: 22}
+token_context:
+   1:  0 4 36 0x12.1F25 888 
+                           ^
+
+----------------
+token: 5
+    {kind: number, spelling: "36", line: 1, column: 6}
+token_context:
+   1:  0 4 36
+           ^
+
+----------------

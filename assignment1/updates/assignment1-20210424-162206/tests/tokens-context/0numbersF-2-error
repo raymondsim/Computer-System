@@ -1,0 +1,4 @@
+***** Fatal error!
+   1: 0 4 0x0.3 3.689 12125.349 888.0 34 0b0000.000000  00008 235.e5 41.4 11. 0xa
+                                                                                ^
+Expected: "one of '0' to '9' or 'A' to 'F'" but found: "a"

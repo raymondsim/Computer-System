@@ -1,0 +1,5 @@
+***** Fatal error!
+  12: \t\r$
+  13: \tlet length = 
+                   ^
+Expected: "=" but found: " "

@@ -1,0 +1,21 @@
+Program,Iterations,Size,Direction,Time,Million Reads / Second,Hostname,CPU,Cores/Threads,L1i Cache,L1d Cache,L2 Cache,L3 Cache,Memory
+php loop.php,40000,1024,asc,1.42,29,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+php loop.php,40000,1024,random,1.41,29,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+php loop.php,10000,4096,dsc,1.22,34,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+php loop.php,10000,4096,random,1.22,34,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/macos/loop-O0,30,16777216,dsc,1.06925,470,skyfall.local,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,4/8,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O0,30,16777216,random,7.02529,71,skyfall.local,Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz,4/8,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O0,30000,16384,asc,0.872049,563,inverness.cs.adelaide.edu.au,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,4c/8t,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O0,30000,16384,random,0.917199,535,inverness.cs.adelaide.edu.au,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,4c/8t,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O3,1500000,4096,asc,1.57554,3899,inverness.cs.adelaide.edu.au,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,4c/8t,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O3,1500000,4096,random,1.58689,3871,inverness.cs.adelaide.edu.au,Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz,4c/8t,32KB,32KB,256KB,8MB,24GB
+lib/macos/loop-O3,400000,16384,dsc,1.18951,5509,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+lib/macos/loop-O3,400000,16384,random,1.24126,5279,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+lib/macos/loop-O3,5000,1048576,asc,1.11022,4722,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+lib/macos/loop-O3,5000,1048576,random,3.42171,1532,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB
+lib/centos8/loop-O3,1500000,4096,dsc,1.41952,4328,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/centos8/loop-O3,1500000,4096,random,1.40029,4387,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/centos8/loop-O3,5000,1048576,dsc,1.78421,2938,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/centos8/loop-O3,5000,1048576,random,7.00911,748,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/centos8/loop-O3,8,536870912,random,53.7372,79,eagle,Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz,6c/6t,192KB,192KB,1536KB,9MB,32052MB
+lib/macos/loop-O3,8,536870912,random,20.6563,207,foyers.local,Apple processor,8c/8t,128KB,64KB,4MB,,8GB

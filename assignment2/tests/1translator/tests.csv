@@ -1,0 +1,8 @@
+ID,Kind,Path,Program,Arguments,Output,Error,Status,Short-Description,Long-Description
+m0t,filter,Add,translator,,1,1,0,Add Milestone,Add Milestone
+m1t,filter,Max,translator,,1,1,0,Max Milestone,Max Milestone
+m2t,filter,Pong,translator,,1,1,0,Pong Milestone,Pong Milestone
+m3t,filter,Rect,translator,,1,1,0,Rect Milestone,Rect Milestone
+f1t,filter,MaxF,translator,,1,1,0,Max Final,Max Final
+f2t,filter,PongF,translator,,1,1,0,Pong Final,Pong Final
+f3t,filter,RectF,translator,,1,1,0,Rect Final,Rect Final

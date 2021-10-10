@@ -1,0 +1,15 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_method()
+    3: parse_subr_body()
+    4: parse_statements()
+    5: parse_statement()
+    6: parse_return()
+error: 
+ 13:                 return bb
+ 14:         }
+             ^
+Found token "}" but expected ";"
+

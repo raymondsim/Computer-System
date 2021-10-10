@@ -1,0 +1,18 @@
+Read 5 tokens
+Token Contexts:
+
+token: 0
+    {kind: newline, spelling: "\n", line: 1, column: 1}
+token_context:
+   1: $
+      ^
+
+----------------
+token: 4
+    {kind: identifier, spelling: "D", line: 3, column: 1}
+token_context:
+   2: @0$
+   3: D
+      ^
+
+----------------

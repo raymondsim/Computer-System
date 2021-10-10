@@ -1,0 +1,5 @@
+***** Fatal error!
+  26:     constructor SquareGame new() {\r$
+  27:         let square = 
+                          ^
+Expected: "=" but found: " "

@@ -1,0 +1,122 @@
+Read 71 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 70
+    {kind: space, spelling: " ", line: 14, column: 11}
+token_context:
+  13:     \r$
+  14:     \tlet s 
+                ^
+
+----------------
+token: 65
+    {kind: space, spelling: " ", line: 14, column: 4}
+token_context:
+  13:     \r$
+  14:     
+         ^
+
+----------------
+token: 60
+    {kind: carriage_return, spelling: "\r", line: 13, column: 5}
+token_context:
+  12:         var String s;\r$
+  13:     \r
+          ^
+
+----------------
+token: 55
+    {kind: newline, spelling: "\n", line: 12, column: 23}
+token_context:
+  11:     function void main() {\r$
+  12:         var String s;\r$
+                            ^
+
+----------------
+token: 50
+    {kind: identifier, spelling: "String", line: 12, column: 13}
+token_context:
+  11:     function void main() {\r$
+  12:         var String
+                  ^
+
+----------------
+token: 45
+    {kind: space, spelling: " ", line: 12, column: 6}
+token_context:
+  11:     function void main() {\r$
+  12:       
+           ^
+
+----------------
+token: 40
+    {kind: space, spelling: " ", line: 12, column: 1}
+token_context:
+  11:     function void main() {\r$
+  12:  
+      ^
+
+----------------
+token: 35
+    {kind: ), spelling: ")", line: 11, column: 24}
+token_context:
+  10:      *  methods of the Output class. */\r$
+  11:     function void main()
+                             ^
+
+----------------
+token: 30
+    {kind: space, spelling: " ", line: 11, column: 13}
+token_context:
+  10:      *  methods of the Output class. */\r$
+  11:     function 
+                  ^
+
+----------------
+token: 25
+    {kind: space, spelling: " ", line: 11, column: 1}
+token_context:
+  10:      *  methods of the Output class. */\r$
+  11:  
+      ^
+
+----------------
+token: 20
+    {kind: space, spelling: " ", line: 9, column: 3}
+token_context:
+   8: \r$
+   9:    
+        ^
+
+----------------
+token: 15
+    {kind: newline, spelling: "\n", line: 7, column: 14}
+token_context:
+   6: /** Test program for the OS Output class. */\r$
+   7: class Main {\r$
+                   ^
+
+----------------
+token: 10
+    {kind: space, spelling: " ", line: 7, column: 6}
+token_context:
+   6: /** Test program for the OS Output class. */\r$
+   7: class 
+           ^
+
+----------------
+token: 5
+    {kind: newline, spelling: "\n", line: 5, column: 2}
+token_context:
+   4: // File name: projects/12/OutputTest/Main.jack\r$
+   5: \r$
+       ^
+
+----------------

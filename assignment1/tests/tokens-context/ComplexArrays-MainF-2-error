@@ -1,0 +1,5 @@
+***** Fatal error!
+  15:         \r$
+  16:         let a = 
+                     ^
+Expected: "=" but found: " "

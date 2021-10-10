@@ -1,0 +1,6 @@
+***** Error:
+ 25:         do bob.bill(1,2) ;
+ 26:         do bill(2
+                    ^
+a function cannot call a method on the current object
+

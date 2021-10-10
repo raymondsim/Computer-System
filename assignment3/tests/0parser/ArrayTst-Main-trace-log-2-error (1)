@@ -1,0 +1,26 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_function()
+    3: parse_subr_body()
+    4: parse_statements()
+    5: parse_statement()
+    6: parse_statement()
+    7: parse_statement()
+    8: parse_while()
+    9: parse_statement()
+   10: parse_while()
+   11: parse_statements()
+   12: parse_statement()
+   13: parse_let()
+   14: parse_expr()
+   15: parse_term()
+   16: parse_var_term()
+   17: parse_var_dec()
+error: 
+ 25:                 while (i < length) {
+ 26:                     let sum = sum + a[i];
+                                             ^
+Found token ";" but expected "var"
+

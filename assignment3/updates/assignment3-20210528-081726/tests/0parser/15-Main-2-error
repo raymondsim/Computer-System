@@ -1,0 +1,6 @@
+
+ 26:                 let mm = Main.newmain() ;
+ 27:                 let b = mm.returnaa[4
+                                        ^
+Found token "[" but expected "("
+

@@ -1,0 +1,354 @@
+Read 212 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 211
+    {kind: space, spelling: " ", line: 32, column: 7}
+token_context:
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall, int AbottomWall) {    \t\r$
+  32: \tlet x 
+            ^
+
+----------------
+token: 206
+    {kind: newline, spelling: "\n", line: 31, column: 111}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall, int AbottomWall) {    \t\r$
+                                                                                                                    ^
+
+----------------
+token: 201
+    {kind: space, spelling: " ", line: 31, column: 106}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall, int AbottomWall) {  
+                                                                                                               ^
+
+----------------
+token: 196
+    {kind: identifier, spelling: "AbottomWall", line: 31, column: 91}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall, int AbottomWall
+                                                                                                ^
+
+----------------
+token: 191
+    {kind: identifier, spelling: "AtopWall", line: 31, column: 77}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall
+                                                                                  ^
+
+----------------
+token: 186
+    {kind: identifier, spelling: "ArightWall", line: 31, column: 61}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall
+                                                                  ^
+
+----------------
+token: 181
+    {kind: identifier, spelling: "AleftWall", line: 31, column: 46}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall
+                                                   ^
+
+----------------
+token: 176
+    {kind: identifier, spelling: "Ay", line: 31, column: 38}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax, int Ay
+                                           ^
+
+----------------
+token: 171
+    {kind: identifier, spelling: "Ax", line: 31, column: 30}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball new(int Ax
+                                   ^
+
+----------------
+token: 166
+    {kind: space, spelling: " ", line: 31, column: 21}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:     constructor Ball 
+                          ^
+
+----------------
+token: 161
+    {kind: space, spelling: " ", line: 31, column: 3}
+token_context:
+  30:      *  and the locations of the walls. */\r$
+  31:    
+        ^
+
+----------------
+token: 156
+    {kind: adhoc_comment, spelling: "* Constructs a new Ball with a given initial location\r\n     *  and the locations of the walls. ", line: 29, column: 5}
+token_context:
+  28: \r$
+  29:     /** Constructs a new Ball with a given initial location\r$
+          ^
+
+----------------
+token: 151
+    {kind: newline, spelling: "\n", line: 28, column: 2}
+token_context:
+  27:     field int wall;\r$
+  28: \r$
+       ^
+
+----------------
+token: 146
+    {kind: identifier, spelling: "wall", line: 27, column: 15}
+token_context:
+  26:     // last wall that the ball was bounced from\r$
+  27:     field int wall
+                    ^
+
+----------------
+token: 141
+    {kind: space, spelling: " ", line: 27, column: 4}
+token_context:
+  26:     // last wall that the ball was bounced from\r$
+  27:     
+         ^
+
+----------------
+token: 136
+    {kind: space, spelling: " ", line: 26, column: 4}
+token_context:
+  25: \r$
+  26:     
+         ^
+
+----------------
+token: 131
+    {kind: carriage_return, spelling: "\r", line: 25, column: 1}
+token_context:
+  24:     field int leftWall, rightWall, topWall, bottomWall;\r$
+  25: \r
+      ^
+
+----------------
+token: 126
+    {kind: space, spelling: " ", line: 24, column: 44}
+token_context:
+  23:     // wall locations\r$
+  24:     field int leftWall, rightWall, topWall, 
+                                                 ^
+
+----------------
+token: 121
+    {kind: identifier, spelling: "rightWall", line: 24, column: 25}
+token_context:
+  23:     // wall locations\r$
+  24:     field int leftWall, rightWall
+                              ^
+
+----------------
+token: 116
+    {kind: identifier, spelling: "int", line: 24, column: 11}
+token_context:
+  23:     // wall locations\r$
+  24:     field int
+                ^
+
+----------------
+token: 111
+    {kind: space, spelling: " ", line: 24, column: 2}
+token_context:
+  23:     // wall locations\r$
+  24:   
+       ^
+
+----------------
+token: 106
+    {kind: space, spelling: " ", line: 23, column: 2}
+token_context:
+  22: \r$
+  23:   
+       ^
+
+----------------
+token: 101
+    {kind: carriage_return, spelling: "\r", line: 21, column: 48}
+token_context:
+  20:     field int d, straightD, diagonalD;\r$
+  21:     field boolean invert, positivex, positivey;\r
+                                                     ^
+
+----------------
+token: 96
+    {kind: identifier, spelling: "positivex", line: 21, column: 27}
+token_context:
+  20:     field int d, straightD, diagonalD;\r$
+  21:     field boolean invert, positivex
+                                ^
+
+----------------
+token: 91
+    {kind: identifier, spelling: "boolean", line: 21, column: 11}
+token_context:
+  20:     field int d, straightD, diagonalD;\r$
+  21:     field boolean
+                ^
+
+----------------
+token: 86
+    {kind: space, spelling: " ", line: 21, column: 2}
+token_context:
+  20:     field int d, straightD, diagonalD;\r$
+  21:   
+       ^
+
+----------------
+token: 81
+    {kind: identifier, spelling: "diagonalD", line: 20, column: 29}
+token_context:
+  19:     // Used for straight line movement computation\r$
+  20:     field int d, straightD, diagonalD
+                                  ^
+
+----------------
+token: 76
+    {kind: ,, spelling: ",", line: 20, column: 16}
+token_context:
+  19:     // Used for straight line movement computation\r$
+  20:     field int d,
+                     ^
+
+----------------
+token: 71
+    {kind: identifier, spelling: "field", line: 20, column: 5}
+token_context:
+  19:     // Used for straight line movement computation\r$
+  20:     field
+          ^
+
+----------------
+token: 66
+    {kind: eol_comment, spelling: " Used for straight line movement computation\r", line: 19, column: 5}
+token_context:
+  18: \r$
+  19:     // Used for straight line movement computation\r$
+          ^
+
+----------------
+token: 61
+    {kind: newline, spelling: "\n", line: 18, column: 2}
+token_context:
+  17:     field int lengthx, lengthy;\r$
+  18: \r$
+       ^
+
+----------------
+token: 56
+    {kind: identifier, spelling: "lengthy", line: 17, column: 24}
+token_context:
+  16:     // Distance of last destination\r$
+  17:     field int lengthx, lengthy
+                             ^
+
+----------------
+token: 51
+    {kind: identifier, spelling: "int", line: 17, column: 11}
+token_context:
+  16:     // Distance of last destination\r$
+  17:     field int
+                ^
+
+----------------
+token: 46
+    {kind: space, spelling: " ", line: 17, column: 2}
+token_context:
+  16:     // Distance of last destination\r$
+  17:   
+       ^
+
+----------------
+token: 41
+    {kind: space, spelling: " ", line: 16, column: 2}
+token_context:
+  15: \r$
+  16:   
+       ^
+
+----------------
+token: 36
+    {kind: carriage_return, spelling: "\r", line: 14, column: 20}
+token_context:
+  13:     // The ball's screen location (in pixels)\r$
+  14:     field int x, y;\r
+                         ^
+
+----------------
+token: 31
+    {kind: identifier, spelling: "x", line: 14, column: 15}
+token_context:
+  13:     // The ball's screen location (in pixels)\r$
+  14:     field int x
+                    ^
+
+----------------
+token: 26
+    {kind: space, spelling: " ", line: 14, column: 4}
+token_context:
+  13:     // The ball's screen location (in pixels)\r$
+  14:     
+         ^
+
+----------------
+token: 21
+    {kind: space, spelling: " ", line: 13, column: 4}
+token_context:
+  12: \r$
+  13:     
+         ^
+
+----------------
+token: 16
+    {kind: carriage_return, spelling: "\r", line: 12, column: 1}
+token_context:
+  11: class Ball {\r$
+  12: \r
+      ^
+
+----------------
+token: 11
+    {kind: identifier, spelling: "Ball", line: 11, column: 7}
+token_context:
+  10:  */\r$
+  11: class Ball
+            ^
+
+----------------
+token: 6
+    {kind: adhoc_comment, spelling: "*\r\n * A graphic ball. Has a screen location and distance of last destination.\r\n * Has methods for drawing, erasing and moving on the screen.\r\n * The ball's dimensions are 6X6 pixels.\r\n ", line: 6, column: 1}
+token_context:
+   5: \r$
+   6: /**\r$
+      ^
+
+----------------
+token: 1
+    {kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r", line: 2, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+   2: // and the book "The Elements of Computing Systems"\r$
+      ^
+
+----------------

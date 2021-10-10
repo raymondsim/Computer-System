@@ -1,0 +1,130 @@
+Read 76 tokens
+Token Contexts:
+
+token: 0
+    {kind: tab, spelling: "\t", line: 1, column: 1}
+token_context:
+   1: \t
+      ^
+
+----------------
+token: 75
+    {kind: newline, spelling: "\n", line: 40, column: 5}
+token_context:
+  39: real$
+  40: this$
+          ^
+
+----------------
+token: 70
+    {kind: pointer, spelling: "pointer", line: 38, column: 1}
+token_context:
+  37: for$
+  38: pointer
+      ^
+
+----------------
+token: 65
+    {kind: newline, spelling: "\n", line: 35, column: 3}
+token_context:
+  34: *constructor ******$
+  35: */$
+        ^
+
+----------------
+token: 60
+    {kind: newline, spelling: "\n", line: 30, column: 2}
+token_context:
+  29: [$
+  30: ]$
+       ^
+
+----------------
+token: 55
+    {kind: ), spelling: ")", line: 28, column: 1}
+token_context:
+  27: ($
+  28: )
+      ^
+
+----------------
+token: 50
+    {kind: newline, spelling: "\n", line: 25, column: 2}
+token_context:
+  24: <=>$
+  25: {$
+       ^
+
+----------------
+token: 45
+    {kind: ==, spelling: "==", line: 23, column: 1}
+token_context:
+  22: .$
+  23: ==
+      ^
+
+----------------
+token: 40
+    {kind: newline, spelling: "\n", line: 20, column: 3}
+token_context:
+  19: :$
+  20: !=$
+        ^
+
+----------------
+token: 35
+    {kind: ;, spelling: ";", line: 18, column: 1}
+token_context:
+  17: @$
+  18: ;
+      ^
+
+----------------
+token: 30
+    {kind: newline, spelling: "\n", line: 15, column: 16}
+token_context:
+  14: 0xAB.FED000$
+  15: 0b0111.00000000$
+                     ^
+
+----------------
+token: 25
+    {kind: number, spelling: "0x12.46", line: 13, column: 1}
+token_context:
+  12: 12.000000$
+  13: 0x12.46
+      ^
+
+----------------
+token: 20
+    {kind: newline, spelling: "\n", line: 10, column: 4}
+token_context:
+   9: 00.123$
+  10: 123$
+         ^
+
+----------------
+token: 15
+    {kind: number, spelling: "00", line: 8, column: 1}
+token_context:
+   7: 0b0.101$
+   8: 00
+      ^
+
+----------------
+token: 10
+    {kind: newline, spelling: "\n", line: 5, column: 2}
+token_context:
+   4: ^php3.6$
+   5: 0$
+       ^
+
+----------------
+token: 5
+    {kind: identifier, spelling: "aA0_$..92", line: 3, column: 1}
+token_context:
+   2: \r $
+   3: aA0_$..92
+      ^
+
+----------------

@@ -1,0 +1,6 @@
+ID,Kind,Path,Program,Arguments,Output,Error,Status,Short-Description
+n1,filter,Add,disassembler,,1,1,0,Add Final
+n2,filter,Max,disassembler,,1,1,0,Max Final
+n3,filter,Pong,disassembler,,1,1,0,Pong Final
+n4,filter,Rect,disassembler,,1,1,0,Rect Final
+n5,filter,Badalu,disassembler,,1,1,0,Empty

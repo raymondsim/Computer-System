@@ -1,0 +1,194 @@
+Read 116 tokens
+Token Contexts:
+
+token: 0
+    {kind: carriage_return, spelling: "\r", line: 1, column: 1}
+token_context:
+   1: \r
+      ^
+
+----------------
+token: 115
+    {kind: space, spelling: " ", line: 30, column: 37}
+token_context:
+  29:         \r$
+  30:         do Main.fillMemory(8001, 16, 
+                                          ^
+
+----------------
+token: 110
+    {kind: number, spelling: "8001", line: 30, column: 28}
+token_context:
+  29:         \r$
+  30:         do Main.fillMemory(8001
+                                 ^
+
+----------------
+token: 105
+    {kind: space, spelling: " ", line: 30, column: 8}
+token_context:
+  29:         \r$
+  30:         
+             ^
+
+----------------
+token: 100
+    {kind: space, spelling: " ", line: 30, column: 3}
+token_context:
+  29:         \r$
+  30:    
+        ^
+
+----------------
+token: 95
+    {kind: space, spelling: " ", line: 29, column: 8}
+token_context:
+  28: \tvar int result, value;\r$
+  29:         
+             ^
+
+----------------
+token: 90
+    {kind: space, spelling: " ", line: 29, column: 3}
+token_context:
+  28: \tvar int result, value;\r$
+  29:    
+        ^
+
+----------------
+token: 85
+    {kind: ;, spelling: ";", line: 28, column: 23}
+token_context:
+  27:     function void main() {\r$
+  28: \tvar int result, value;
+                            ^
+
+----------------
+token: 80
+    {kind: space, spelling: " ", line: 28, column: 9}
+token_context:
+  27:     function void main() {\r$
+  28: \tvar int 
+              ^
+
+----------------
+token: 75
+    {kind: newline, spelling: "\n", line: 27, column: 28}
+token_context:
+  26: \r$
+  27:     function void main() {\r$
+                                 ^
+
+----------------
+token: 70
+    {kind: (, spelling: "(", line: 27, column: 23}
+token_context:
+  26: \r$
+  27:     function void main(
+                            ^
+
+----------------
+token: 65
+    {kind: identifier, spelling: "function", line: 27, column: 5}
+token_context:
+  26: \r$
+  27:     function
+          ^
+
+----------------
+token: 60
+    {kind: newline, spelling: "\n", line: 26, column: 2}
+token_context:
+  25: \r$
+  26: \r$
+       ^
+
+----------------
+token: 55
+    {kind: carriage_return, spelling: "\r", line: 24, column: 1}
+token_context:
+  23: \r$
+  24: \r
+      ^
+
+----------------
+token: 50
+    {kind: space, spelling: " ", line: 22, column: 4}
+token_context:
+  21: class Main {\r$
+  22:     
+         ^
+
+----------------
+token: 45
+    {kind: carriage_return, spelling: "\r", line: 21, column: 13}
+token_context:
+  20: \r$
+  21: class Main {\r
+                  ^
+
+----------------
+token: 40
+    {kind: identifier, spelling: "class", line: 21, column: 1}
+token_context:
+  20: \r$
+  21: class
+      ^
+
+----------------
+token: 35
+    {kind: newline, spelling: "\n", line: 18, column: 2}
+token_context:
+  17: \r$
+  18: \r$
+       ^
+
+----------------
+token: 30
+    {kind: carriage_return, spelling: "\r", line: 16, column: 1}
+token_context:
+  15: \r$
+  16: \r
+      ^
+
+----------------
+token: 25
+    {kind: newline, spelling: "\n", line: 13, column: 2}
+token_context:
+  12: \r$
+  13: \r$
+       ^
+
+----------------
+token: 20
+    {kind: carriage_return, spelling: "\r", line: 11, column: 1}
+token_context:
+  10: \r$
+  11: \r
+      ^
+
+----------------
+token: 15
+    {kind: newline, spelling: "\n", line: 8, column: 2}
+token_context:
+   7: \r$
+   8: \r$
+       ^
+
+----------------
+token: 10
+    {kind: carriage_return, spelling: "\r", line: 6, column: 1}
+token_context:
+   5: \r$
+   6: \r
+      ^
+
+----------------
+token: 5
+    {kind: newline, spelling: "\n", line: 3, column: 2}
+token_context:
+   2: \r$
+   3: \r$
+       ^
+
+----------------

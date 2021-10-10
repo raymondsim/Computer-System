@@ -1,0 +1,26 @@
+Read 10 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 9
+    {kind: identifier, spelling: "if", line: 3, column: 15}
+token_context:
+   2: $
+   3: constructor   if
+                    ^
+
+----------------
+token: 4
+    {kind: newline, spelling: "\n", line: 2, column: 1}
+token_context:
+   1:   while$
+   2: $
+      ^
+
+----------------

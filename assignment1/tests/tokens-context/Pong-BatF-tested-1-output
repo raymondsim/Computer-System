@@ -1,0 +1,210 @@
+Read 126 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 125
+    {kind: space, spelling: " ", line: 24, column: 7}
+token_context:
+  23:     constructor Bat new(int Ax, int Ay, int Awidth, int Aheight) {\r$
+  24: \tlet x 
+            ^
+
+----------------
+token: 120
+    {kind: newline, spelling: "\n", line: 23, column: 68}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat new(int Ax, int Ay, int Awidth, int Aheight) {\r$
+                                                                         ^
+
+----------------
+token: 115
+    {kind: identifier, spelling: "Aheight", line: 23, column: 57}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat new(int Ax, int Ay, int Awidth, int Aheight
+                                                              ^
+
+----------------
+token: 110
+    {kind: identifier, spelling: "Awidth", line: 23, column: 45}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat new(int Ax, int Ay, int Awidth
+                                                  ^
+
+----------------
+token: 105
+    {kind: identifier, spelling: "Ay", line: 23, column: 37}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat new(int Ax, int Ay
+                                          ^
+
+----------------
+token: 100
+    {kind: identifier, spelling: "Ax", line: 23, column: 29}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat new(int Ax
+                                  ^
+
+----------------
+token: 95
+    {kind: space, spelling: " ", line: 23, column: 20}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:     constructor Bat 
+                         ^
+
+----------------
+token: 90
+    {kind: space, spelling: " ", line: 23, column: 3}
+token_context:
+  22:     /** Constructs a new bat with the given location and width. */\r$
+  23:    
+        ^
+
+----------------
+token: 85
+    {kind: adhoc_comment, spelling: "* Constructs a new bat with the given location and width. ", line: 22, column: 5}
+token_context:
+  21: \r$
+  22:     /** Constructs a new bat with the given location and width. */
+          ^
+
+----------------
+token: 80
+    {kind: newline, spelling: "\n", line: 21, column: 2}
+token_context:
+  20:     field int direction; // 1 = left, 2 = right\r$
+  21: \r$
+       ^
+
+----------------
+token: 75
+    {kind: identifier, spelling: "direction", line: 20, column: 15}
+token_context:
+  19:     // The direction of the bat's movement\r$
+  20:     field int direction
+                    ^
+
+----------------
+token: 70
+    {kind: space, spelling: " ", line: 20, column: 4}
+token_context:
+  19:     // The direction of the bat's movement\r$
+  20:     
+         ^
+
+----------------
+token: 65
+    {kind: space, spelling: " ", line: 19, column: 4}
+token_context:
+  18: \r$
+  19:     
+         ^
+
+----------------
+token: 60
+    {kind: carriage_return, spelling: "\r", line: 18, column: 1}
+token_context:
+  17:     field int width, height;\r$
+  18: \r
+      ^
+
+----------------
+token: 55
+    {kind: space, spelling: " ", line: 17, column: 21}
+token_context:
+  16:     // The width and height\r$
+  17:     field int width, 
+                          ^
+
+----------------
+token: 50
+    {kind: space, spelling: " ", line: 17, column: 10}
+token_context:
+  16:     // The width and height\r$
+  17:     field 
+               ^
+
+----------------
+token: 45
+    {kind: space, spelling: " ", line: 17, column: 1}
+token_context:
+  16:     // The width and height\r$
+  17:  
+      ^
+
+----------------
+token: 40
+    {kind: space, spelling: " ", line: 16, column: 1}
+token_context:
+  15: \r$
+  16:  
+      ^
+
+----------------
+token: 35
+    {kind: ;, spelling: ";", line: 14, column: 19}
+token_context:
+  13:     // The screen location\r$
+  14:     field int x, y;
+                        ^
+
+----------------
+token: 30
+    {kind: space, spelling: " ", line: 14, column: 14}
+token_context:
+  13:     // The screen location\r$
+  14:     field int 
+                   ^
+
+----------------
+token: 25
+    {kind: space, spelling: " ", line: 14, column: 3}
+token_context:
+  13:     // The screen location\r$
+  14:    
+        ^
+
+----------------
+token: 20
+    {kind: space, spelling: " ", line: 13, column: 3}
+token_context:
+  12: \r$
+  13:    
+        ^
+
+----------------
+token: 15
+    {kind: newline, spelling: "\n", line: 11, column: 13}
+token_context:
+  10:  */\r$
+  11: class Bat {\r$
+                  ^
+
+----------------
+token: 10
+    {kind: space, spelling: " ", line: 11, column: 6}
+token_context:
+  10:  */\r$
+  11: class 
+           ^
+
+----------------
+token: 5
+    {kind: newline, spelling: "\n", line: 5, column: 2}
+token_context:
+   4: // File name: projects/11/Pong/Bat.jack.\r$
+   5: \r$
+       ^
+
+----------------

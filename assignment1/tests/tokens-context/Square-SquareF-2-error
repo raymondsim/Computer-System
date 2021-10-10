@@ -1,0 +1,5 @@
+***** Fatal error!
+  20:     constructor Square new(int Ax, int Ay, int Asize) {\r$
+  21:         let x = 
+                     ^
+Expected: "=" but found: " "

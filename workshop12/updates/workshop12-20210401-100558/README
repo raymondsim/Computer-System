@@ -1,0 +1,39 @@
+Example loops in php and C++ to illustrate data cache effects.
+
+In the examples below % is the shell prompt.
+
+// PHP Example using 20 million integer array
+// accessed in ascending order 10 times
+% php loop.php 20000000 10 asc
+
+// accessed in descending order 10 times
+% php loop.php 20000000 10 dsc
+
+// accessed in random order 10 times
+% php loop.php 20000000 10 random
+
+
+// C++ Example using 20 million integer array, accessed in ascending order 20 times
+// Compile the program
+% make
+
+// without optimisations
+% ./loop-O0 20000000 20 asc
+
+// with level-1 optimisations
+% ./loop-O1 20000000 20 asc
+
+// with level-3 optimisations
+% ./loop-O3 20000000 20 asc
+
+
+// the assembler generated for the C++ loops
+// without optimisations
+% cat loop-O0.s
+
+// with level-1 optimisations
+% cat loop-O1.s
+
+// with level-3 optimisations
+% cat loop-O3.s
+

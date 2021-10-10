@@ -1,0 +1,162 @@
+Read 94 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 93
+    {kind: space, spelling: " ", line: 14, column: 14}
+token_context:
+  13:         \r$
+  14:         let s 
+                   ^
+
+----------------
+token: 88
+    {kind: space, spelling: " ", line: 14, column: 7}
+token_context:
+  13:         \r$
+  14:        
+            ^
+
+----------------
+token: 83
+    {kind: space, spelling: " ", line: 14, column: 2}
+token_context:
+  13:         \r$
+  14:   
+       ^
+
+----------------
+token: 78
+    {kind: space, spelling: " ", line: 13, column: 7}
+token_context:
+  12:         var String i;\r$
+  13:        
+            ^
+
+----------------
+token: 73
+    {kind: space, spelling: " ", line: 13, column: 2}
+token_context:
+  12:         var String i;\r$
+  13:   
+       ^
+
+----------------
+token: 68
+    {kind: identifier, spelling: "i", line: 12, column: 20}
+token_context:
+  11:         var String s;\r$
+  12:         var String i
+                         ^
+
+----------------
+token: 63
+    {kind: space, spelling: " ", line: 12, column: 8}
+token_context:
+  11:         var String s;\r$
+  12:         
+             ^
+
+----------------
+token: 58
+    {kind: space, spelling: " ", line: 12, column: 3}
+token_context:
+  11:         var String s;\r$
+  12:    
+        ^
+
+----------------
+token: 53
+    {kind: ;, spelling: ";", line: 11, column: 21}
+token_context:
+  10:     function void main() {\r$
+  11:         var String s;
+                          ^
+
+----------------
+token: 48
+    {kind: identifier, spelling: "var", line: 11, column: 9}
+token_context:
+  10:     function void main() {\r$
+  11:         var
+              ^
+
+----------------
+token: 43
+    {kind: space, spelling: " ", line: 11, column: 4}
+token_context:
+  10:     function void main() {\r$
+  11:     
+         ^
+
+----------------
+token: 38
+    {kind: carriage_return, spelling: "\r", line: 10, column: 27}
+token_context:
+   9:     /** Performs several string manipulations and prints their results. */\r$
+  10:     function void main() {\r
+                                ^
+
+----------------
+token: 33
+    {kind: identifier, spelling: "main", line: 10, column: 19}
+token_context:
+   9:     /** Performs several string manipulations and prints their results. */\r$
+  10:     function void main
+                        ^
+
+----------------
+token: 28
+    {kind: space, spelling: " ", line: 10, column: 4}
+token_context:
+   9:     /** Performs several string manipulations and prints their results. */\r$
+  10:     
+         ^
+
+----------------
+token: 23
+    {kind: carriage_return, spelling: "\r", line: 9, column: 75}
+token_context:
+   8: \r$
+   9:     /** Performs several string manipulations and prints their results. */\r
+                                                                                ^
+
+----------------
+token: 18
+    {kind: space, spelling: " ", line: 9, column: 1}
+token_context:
+   8: \r$
+   9:  
+      ^
+
+----------------
+token: 13
+    {kind: {, spelling: "{", line: 7, column: 12}
+token_context:
+   6: /** Test program for the OS String class. */\r$
+   7: class Main {
+                 ^
+
+----------------
+token: 8
+    {kind: newline, spelling: "\n", line: 6, column: 46}
+token_context:
+   5: \r$
+   6: /** Test program for the OS String class. */\r$
+                                                   ^
+
+----------------
+token: 3
+    {kind: eol_comment, spelling: " File name: projects/12/StringTest/Main.jack\r", line: 4, column: 1}
+token_context:
+   3: // by Nisan and Schocken, MIT Press.\r$
+   4: // File name: projects/12/StringTest/Main.jack\r$
+      ^
+
+----------------

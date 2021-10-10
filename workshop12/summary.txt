@@ -1,0 +1,17 @@
+-It's so fun having this experiment running because I can test out many different loop and measure it's run time on my laptop
+
+-My laptop is running on Intel i7 10th gen and the performance is just average in my opinion
+
+-The more loops, the longer it takes (for sure)
+
+-I don't have another computer with different chip so I can't really compare performances on different chip
+
+-asc, desc and random has slightly different run time for some reason.
+
+-different size, iterations, and cache or speed used also affect the performance.
+
+-random takes relatively more tim e and i think it's because it is not consistent at all which actually makes the process takes longer to be solved as it is not consistent, the process is not repeated. this will eventually cause more amount of time will be needed to execute the entire program.
+
+-on the other hand, asc and desc both are taking almost the same amount of time and i am not really sure why but i will look it up online later on to see whats the reason but this is just my observation after running through them with some different output only.
+
+-above are just initial observation and i might be wrong because i did not run through and execute the program very professionally. i only used whats given and give them different input which is kind of like trial and error, more result for observation and in depth exploration is needed in order to get more precise result and conclusion.

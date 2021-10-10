@@ -1,0 +1,20 @@
+{kind: space, spelling: " "}
+{kind: number, spelling: "0"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "4"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "036"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "012125"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0x888"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "34"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "000"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "235"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0b1111111"}
+{kind: newline, spelling: "\n"}
+Read 19 tokens

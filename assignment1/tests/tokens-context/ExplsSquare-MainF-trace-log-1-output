@@ -1,0 +1,122 @@
+Read 71 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 70
+    {kind: space, spelling: " ", line: 17, column: 17}
+token_context:
+  16: \r$
+  17:         let game 
+                      ^
+
+----------------
+token: 65
+    {kind: space, spelling: " ", line: 17, column: 7}
+token_context:
+  16: \r$
+  17:        
+            ^
+
+----------------
+token: 60
+    {kind: space, spelling: " ", line: 17, column: 2}
+token_context:
+  16: \r$
+  17:   
+       ^
+
+----------------
+token: 55
+    {kind: carriage_return, spelling: "\r", line: 15, column: 29}
+token_context:
+  14:     function void main() {\r$
+  15:         var SquareGame game;\r
+                                  ^
+
+----------------
+token: 50
+    {kind: space, spelling: " ", line: 15, column: 12}
+token_context:
+  14:     function void main() {\r$
+  15:         var 
+                 ^
+
+----------------
+token: 45
+    {kind: space, spelling: " ", line: 15, column: 5}
+token_context:
+  14:     function void main() {\r$
+  15:      
+          ^
+
+----------------
+token: 40
+    {kind: newline, spelling: "\n", line: 14, column: 28}
+token_context:
+  13:     // Initializes the square game and starts it.\r$
+  14:     function void main() {\r$
+                                 ^
+
+----------------
+token: 35
+    {kind: (, spelling: "(", line: 14, column: 23}
+token_context:
+  13:     // Initializes the square game and starts it.\r$
+  14:     function void main(
+                            ^
+
+----------------
+token: 30
+    {kind: identifier, spelling: "function", line: 14, column: 5}
+token_context:
+  13:     // Initializes the square game and starts it.\r$
+  14:     function
+          ^
+
+----------------
+token: 25
+    {kind: eol_comment, spelling: " Initializes the square game and starts it.\r", line: 13, column: 5}
+token_context:
+  12: \r$
+  13:     // Initializes the square game and starts it.\r$
+          ^
+
+----------------
+token: 20
+    {kind: newline, spelling: "\n", line: 12, column: 2}
+token_context:
+  11: class Main {\r$
+  12: \r$
+       ^
+
+----------------
+token: 15
+    {kind: space, spelling: " ", line: 11, column: 11}
+token_context:
+  10:  */\r$
+  11: class Main 
+                ^
+
+----------------
+token: 10
+    {kind: carriage_return, spelling: "\r", line: 10, column: 4}
+token_context:
+   9:  * The Main class initializes a new Square Dance game and starts it.\r$
+  10:  */\r
+         ^
+
+----------------
+token: 5
+    {kind: newline, spelling: "\n", line: 5, column: 2}
+token_context:
+   4: // File name: projects/10/ExpressionlessSquare/Main.jack\r$
+   5: \r$
+       ^
+
+----------------

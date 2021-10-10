@@ -1,0 +1,42 @@
+Read 17 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org$
+      ^
+
+----------------
+token: 16
+    {kind: identifier, spelling: "D", line: 9, column: 4}
+token_context:
+   8:    @R0$
+   9:    D
+         ^
+
+----------------
+token: 11
+    {kind: identifier, spelling: "R0", line: 8, column: 5}
+token_context:
+   7: $
+   8:    @R0
+          ^
+
+----------------
+token: 6
+    {kind: newline, spelling: "\n", line: 7, column: 1}
+token_context:
+   6: // Computes R2 = max(R0, R1)  (R0,R1,R2 refer to  RAM[0],RAM[1],RAM[2])$
+   7: $
+      ^
+
+----------------
+token: 1
+    {kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"", line: 2, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org$
+   2: // and the book "The Elements of Computing Systems"$
+      ^
+
+----------------

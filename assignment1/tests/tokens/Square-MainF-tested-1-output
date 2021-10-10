@@ -1,0 +1,75 @@
+{kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r"}
+{kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r"}
+{kind: eol_comment, spelling: " by Nisan and Schocken, MIT Press.\r"}
+{kind: eol_comment, spelling: " File name: projects/09/Square/Main.jack\r"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: adhoc_comment, spelling: "*\r\n * The Main class initializes a new Square Dance game and starts it.\r\n "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "class"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Main"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: adhoc_comment, spelling: "* Initializes a new game and starts it. "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "function"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "void"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "main"}
+{kind: (, spelling: "("}
+{kind: ), spelling: ")"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "SquareGame"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "game"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "let"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "game"}
+{kind: space, spelling: " "}
+Read 74 tokens

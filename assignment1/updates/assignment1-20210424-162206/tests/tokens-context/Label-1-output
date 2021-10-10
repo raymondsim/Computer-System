@@ -1,0 +1,31 @@
+Read 12 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 11
+    {kind: newline, spelling: "\n", line: 1, column: 24}
+token_context:
+   1:         (Jump_to_here$)$
+                             ^
+
+----------------
+token: 6
+    {kind: space, spelling: " ", line: 1, column: 7}
+token_context:
+   1:        
+            ^
+
+----------------
+token: 1
+    {kind: space, spelling: " ", line: 1, column: 2}
+token_context:
+   1:   
+       ^
+
+----------------

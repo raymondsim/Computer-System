@@ -1,0 +1,87 @@
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "class"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Main"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "function"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "void"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "main"}
+{kind: (, spelling: "("}
+{kind: ), spelling: ")"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Array"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "a"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "length"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "i"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "sum"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: tab, spelling: "\t"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "let"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "length"}
+{kind: space, spelling: " "}
+Read 86 tokens

@@ -1,0 +1,6 @@
+
+ 26:                 let mm = Main.newmain() ;
+ 27:                 b 
+                     ^
+Found token "b" but expected "}"
+

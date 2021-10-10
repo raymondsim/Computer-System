@@ -1,0 +1,5 @@
+***** Fatal error!
+  29:         \r$
+  30:         do Main.fillMemory(8001, 16, -
+                                           ^
+Expected: "a character that can start a token" but found: "-"

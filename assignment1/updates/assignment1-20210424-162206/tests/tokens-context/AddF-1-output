@@ -1,0 +1,26 @@
+Read 11 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org$
+      ^
+
+----------------
+token: 10
+    {kind: identifier, spelling: "D", line: 9, column: 1}
+token_context:
+   8: @2$
+   9: D
+      ^
+
+----------------
+token: 5
+    {kind: eol_comment, spelling: " Computes R0 = 2 + 3", line: 6, column: 1}
+token_context:
+   5: $
+   6: // Computes R0 = 2 + 3$
+      ^
+
+----------------

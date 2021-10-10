@@ -1,0 +1,31 @@
+Read 13 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 12
+    {kind: newline, spelling: "\n", line: 1, column: 22}
+token_context:
+   1:         @hello_mum:17$
+                           ^
+
+----------------
+token: 7
+    {kind: space, spelling: " ", line: 1, column: 8}
+token_context:
+   1:         
+             ^
+
+----------------
+token: 2
+    {kind: space, spelling: " ", line: 1, column: 3}
+token_context:
+   1:    
+        ^
+
+----------------

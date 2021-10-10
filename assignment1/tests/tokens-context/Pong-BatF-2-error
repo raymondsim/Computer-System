@@ -1,0 +1,5 @@
+***** Fatal error!
+  23:     constructor Bat new(int Ax, int Ay, int Awidth, int Aheight) {\r$
+  24: \tlet x = 
+              ^
+Expected: "=" but found: " "

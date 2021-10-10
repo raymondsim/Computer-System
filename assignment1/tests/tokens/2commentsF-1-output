@@ -1,0 +1,7 @@
+{kind: eol_comment, spelling: " this is a test of diff kinds of comments"}
+{kind: newline, spelling: "\n"}
+{kind: eol_comment, spelling: " qwertyuio\t\t~~~~~~~~~"}
+{kind: newline, spelling: "\n"}
+{kind: adhoc_comment, spelling: " hello where am I? \n /*=== and this probably\r\t\r fails as\n   //////////\na comment "}
+{kind: newline, spelling: "\n"}
+Read 6 tokens

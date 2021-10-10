@@ -1,0 +1,5 @@
+***** Fatal error!
+  31:     constructor Ball new(int Ax, int Ay, int AleftWall, int ArightWall, int AtopWall, int AbottomWall) {    \t\r$
+  32: \tlet x = 
+              ^
+Expected: "=" but found: " "

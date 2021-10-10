@@ -1,0 +1,213 @@
+{kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r"}
+{kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r"}
+{kind: eol_comment, spelling: " by Nisan and Schocken, MIT Press.\r"}
+{kind: eol_comment, spelling: " File name: projects/11/Pong/Ball.jack\r"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: adhoc_comment, spelling: "*\r\n * A graphic ball. Has a screen location and distance of last destination.\r\n * Has methods for drawing, erasing and moving on the screen.\r\n * The ball's dimensions are 6X6 pixels.\r\n "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "class"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Ball"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " The ball's screen location (in pixels)\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "x"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "y"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " Distance of last destination\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "lengthx"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "lengthy"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " Used for straight line movement computation\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "d"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "straightD"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "diagonalD"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "boolean"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "invert"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "positivex"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "positivey"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " wall locations\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "leftWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "rightWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "topWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "bottomWall"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " last wall that the ball was bounced from\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "field"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "wall"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: adhoc_comment, spelling: "* Constructs a new Ball with a given initial location\r\n     *  and the locations of the walls. "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "constructor"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Ball"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "new"}
+{kind: (, spelling: "("}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Ax"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Ay"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "AleftWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "ArightWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "AtopWall"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "AbottomWall"}
+{kind: ), spelling: ")"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: tab, spelling: "\t"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "let"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "x"}
+{kind: space, spelling: " "}
+Read 212 tokens

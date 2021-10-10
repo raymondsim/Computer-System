@@ -1,0 +1,59 @@
+Read 35 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 34
+    {kind: eol_comment, spelling: "///////832", line: 1, column: 51}
+token_context:
+   1:         a!=b/==3!=1==38,,,,,,,========.<=><=><=>==/////////832$
+                                                        ^
+
+----------------
+token: 29
+    {kind: ., spelling: ".", line: 1, column: 39}
+token_context:
+   1:         a!=b/==3!=1==38,,,,,,,========.
+                                            ^
+
+----------------
+token: 24
+    {kind: ,, spelling: ",", line: 1, column: 30}
+token_context:
+   1:         a!=b/==3!=1==38,,,,,,,
+                                   ^
+
+----------------
+token: 19
+    {kind: ,, spelling: ",", line: 1, column: 25}
+token_context:
+   1:         a!=b/==3!=1==38,,
+                              ^
+
+----------------
+token: 14
+    {kind: !=, spelling: "!=", line: 1, column: 17}
+token_context:
+   1:         a!=b/==3!=
+                      ^
+
+----------------
+token: 9
+    {kind: !=, spelling: "!=", line: 1, column: 10}
+token_context:
+   1:         a!=
+               ^
+
+----------------
+token: 4
+    {kind: space, spelling: " ", line: 1, column: 5}
+token_context:
+   1:      
+          ^
+
+----------------

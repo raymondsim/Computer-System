@@ -1,0 +1,4 @@
+push constant 5
+@5
+D=A
+P=D

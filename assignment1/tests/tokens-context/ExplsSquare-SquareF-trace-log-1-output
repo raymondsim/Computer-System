@@ -1,0 +1,186 @@
+Read 107 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 106
+    {kind: space, spelling: " ", line: 23, column: 14}
+token_context:
+  22:     constructor Square new(int Ax, int Ay, int Asize) {\r$
+  23:         let x 
+                   ^
+
+----------------
+token: 101
+    {kind: space, spelling: " ", line: 23, column: 7}
+token_context:
+  22:     constructor Square new(int Ax, int Ay, int Asize) {\r$
+  23:        
+            ^
+
+----------------
+token: 96
+    {kind: space, spelling: " ", line: 23, column: 2}
+token_context:
+  22:     constructor Square new(int Ax, int Ay, int Asize) {\r$
+  23:   
+       ^
+
+----------------
+token: 91
+    {kind: space, spelling: " ", line: 22, column: 54}
+token_context:
+  21:     // Constructs a new square with a given location and size.\r$
+  22:     constructor Square new(int Ax, int Ay, int Asize) 
+                                                           ^
+
+----------------
+token: 86
+    {kind: space, spelling: " ", line: 22, column: 43}
+token_context:
+  21:     // Constructs a new square with a given location and size.\r$
+  22:     constructor Square new(int Ax, int Ay, 
+                                                ^
+
+----------------
+token: 81
+    {kind: space, spelling: " ", line: 22, column: 35}
+token_context:
+  21:     // Constructs a new square with a given location and size.\r$
+  22:     constructor Square new(int Ax, 
+                                        ^
+
+----------------
+token: 76
+    {kind: (, spelling: "(", line: 22, column: 27}
+token_context:
+  21:     // Constructs a new square with a given location and size.\r$
+  22:     constructor Square new(
+                                ^
+
+----------------
+token: 71
+    {kind: identifier, spelling: "constructor", line: 22, column: 5}
+token_context:
+  21:     // Constructs a new square with a given location and size.\r$
+  22:     constructor
+          ^
+
+----------------
+token: 66
+    {kind: eol_comment, spelling: " Constructs a new square with a given location and size.\r", line: 21, column: 5}
+token_context:
+  20: \r$
+  21:     // Constructs a new square with a given location and size.\r$
+          ^
+
+----------------
+token: 61
+    {kind: newline, spelling: "\n", line: 20, column: 2}
+token_context:
+  19:     field int size;\r$
+  20: \r$
+       ^
+
+----------------
+token: 56
+    {kind: identifier, spelling: "size", line: 19, column: 15}
+token_context:
+  18:     // The size of the square\r$
+  19:     field int size
+                    ^
+
+----------------
+token: 51
+    {kind: space, spelling: " ", line: 19, column: 4}
+token_context:
+  18:     // The size of the square\r$
+  19:     
+         ^
+
+----------------
+token: 46
+    {kind: space, spelling: " ", line: 18, column: 4}
+token_context:
+  17: \r$
+  18:     
+         ^
+
+----------------
+token: 41
+    {kind: carriage_return, spelling: "\r", line: 17, column: 1}
+token_context:
+  16:     field int x, y;\r$
+  17: \r
+      ^
+
+----------------
+token: 36
+    {kind: space, spelling: " ", line: 16, column: 17}
+token_context:
+  15:     // Location on the screen\r$
+  16:     field int x, 
+                      ^
+
+----------------
+token: 31
+    {kind: space, spelling: " ", line: 16, column: 10}
+token_context:
+  15:     // Location on the screen\r$
+  16:     field 
+               ^
+
+----------------
+token: 26
+    {kind: space, spelling: " ", line: 16, column: 1}
+token_context:
+  15:     // Location on the screen\r$
+  16:  
+      ^
+
+----------------
+token: 21
+    {kind: space, spelling: " ", line: 15, column: 1}
+token_context:
+  14: \r$
+  15:  
+      ^
+
+----------------
+token: 16
+    {kind: {, spelling: "{", line: 13, column: 14}
+token_context:
+  12:  */\r$
+  13: class Square {
+                   ^
+
+----------------
+token: 11
+    {kind: newline, spelling: "\n", line: 12, column: 5}
+token_context:
+  11:  * for drawing, erasing, moving on the screen, and changing its size.\r$
+  12:  */\r$
+          ^
+
+----------------
+token: 6
+    {kind: eol_comment, spelling: " Expressionless version of Square.jack.\r", line: 6, column: 1}
+token_context:
+   5: \r$
+   6: // Expressionless version of Square.jack.\r$
+      ^
+
+----------------
+token: 1
+    {kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r", line: 2, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+   2: // and the book "The Elements of Computing Systems"\r$
+      ^
+
+----------------

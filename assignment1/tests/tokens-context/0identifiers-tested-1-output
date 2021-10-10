@@ -1,0 +1,73 @@
+Read 39 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 38
+    {kind: newline, spelling: "\n", line: 13, column: 4}
+token_context:
+  12:  $
+  13:    $
+         ^
+
+----------------
+token: 33
+    {kind: space, spelling: " ", line: 12, column: 1}
+token_context:
+  11: money_$$$$$$$? $
+  12:  
+      ^
+
+----------------
+token: 28
+    {kind: newline, spelling: "\n", line: 9, column: 4}
+token_context:
+   8: $
+   9:  ^?$
+         ^
+
+----------------
+token: 23
+    {kind: identifier, spelling: "I_know_too_much_and_8_my_lunch", line: 7, column: 1}
+token_context:
+   6: $
+   7: I_know_too_much_and_8_my_lunch
+      ^
+
+----------------
+token: 18
+    {kind: identifier, spelling: "^a", line: 5, column: 4}
+token_context:
+   4: $
+   5:  ^a^a
+         ^
+
+----------------
+token: 13
+    {kind: identifier, spelling: "^is_computer_systems____?", line: 3, column: 5}
+token_context:
+   2: $
+   3:     ^is_computer_systems____?
+          ^
+
+----------------
+token: 8
+    {kind: newline, spelling: "\n", line: 2, column: 1}
+token_context:
+   1:  hello bobis97today i8me $
+   2: $
+      ^
+
+----------------
+token: 3
+    {kind: identifier, spelling: "bobis97today", line: 1, column: 8}
+token_context:
+   1:  hello bobis97today
+             ^
+
+----------------

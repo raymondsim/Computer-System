@@ -1,0 +1,28 @@
+{kind: number, spelling: "0"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "4"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0x0.3"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "3.689"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "12125.349"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "888"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "34"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0b0000"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0000"}
+{kind: number, spelling: "8"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "235"}
+{kind: identifier, spelling: "e5"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "41.4"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "11"}
+{kind: space, spelling: " "}
+Read 27 tokens

@@ -1,0 +1,970 @@
+Read 600 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 599
+    {kind: newline, spelling: "\n", line: 37, column: 3}
+token_context:
+  36: \r$
+  37: }\r$
+        ^
+
+----------------
+token: 594
+    {kind: newline, spelling: "\n", line: 35, column: 7}
+token_context:
+  34:         return;\r$
+  35:     }\r$
+            ^
+
+----------------
+token: 589
+    {kind: space, spelling: " ", line: 35, column: 2}
+token_context:
+  34:         return;\r$
+  35:   
+       ^
+
+----------------
+token: 584
+    {kind: identifier, spelling: "return", line: 34, column: 9}
+token_context:
+  33:         \r$
+  34:         return
+              ^
+
+----------------
+token: 579
+    {kind: space, spelling: " ", line: 34, column: 4}
+token_context:
+  33:         \r$
+  34:     
+         ^
+
+----------------
+token: 574
+    {kind: carriage_return, spelling: "\r", line: 33, column: 9}
+token_context:
+  32:         do Screen.drawLine(117,35,102,20);       \r$
+  33:         \r
+              ^
+
+----------------
+token: 569
+    {kind: space, spelling: " ", line: 33, column: 4}
+token_context:
+  32:         do Screen.drawLine(117,35,102,20);       \r$
+  33:     
+         ^
+
+----------------
+token: 564
+    {kind: carriage_return, spelling: "\r", line: 32, column: 50}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:         do Screen.drawLine(117,35,102,20);       \r
+                                                       ^
+
+----------------
+token: 559
+    {kind: space, spelling: " ", line: 32, column: 45}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:         do Screen.drawLine(117,35,102,20);   
+                                                  ^
+
+----------------
+token: 554
+    {kind: number, spelling: "20", line: 32, column: 39}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:         do Screen.drawLine(117,35,102,20
+                                            ^
+
+----------------
+token: 549
+    {kind: ,, spelling: ",", line: 32, column: 31}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:         do Screen.drawLine(117,
+                                    ^
+
+----------------
+token: 544
+    {kind: do, spelling: "do", line: 32, column: 9}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:         do
+              ^
+
+----------------
+token: 539
+    {kind: space, spelling: " ", line: 32, column: 4}
+token_context:
+  31:         do Screen.drawLine(106,60,86,60);       \r$
+  32:     
+         ^
+
+----------------
+token: 534
+    {kind: carriage_return, spelling: "\r", line: 31, column: 49}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:         do Screen.drawLine(106,60,86,60);       \r
+                                                      ^
+
+----------------
+token: 529
+    {kind: space, spelling: " ", line: 31, column: 44}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:         do Screen.drawLine(106,60,86,60);   
+                                                 ^
+
+----------------
+token: 524
+    {kind: number, spelling: "60", line: 31, column: 38}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:         do Screen.drawLine(106,60,86,60
+                                           ^
+
+----------------
+token: 519
+    {kind: ,, spelling: ",", line: 31, column: 31}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:         do Screen.drawLine(106,
+                                    ^
+
+----------------
+token: 514
+    {kind: do, spelling: "do", line: 31, column: 9}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:         do
+              ^
+
+----------------
+token: 509
+    {kind: space, spelling: " ", line: 31, column: 4}
+token_context:
+  30:         do Screen.drawLine(117,85,102,100);       \r$
+  31:     
+         ^
+
+----------------
+token: 504
+    {kind: carriage_return, spelling: "\r", line: 30, column: 51}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:         do Screen.drawLine(117,85,102,100);       \r
+                                                        ^
+
+----------------
+token: 499
+    {kind: space, spelling: " ", line: 30, column: 46}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:         do Screen.drawLine(117,85,102,100);   
+                                                   ^
+
+----------------
+token: 494
+    {kind: number, spelling: "100", line: 30, column: 39}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:         do Screen.drawLine(117,85,102,100
+                                            ^
+
+----------------
+token: 489
+    {kind: ,, spelling: ",", line: 30, column: 31}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:         do Screen.drawLine(117,
+                                    ^
+
+----------------
+token: 484
+    {kind: do, spelling: "do", line: 30, column: 9}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:         do
+              ^
+
+----------------
+token: 479
+    {kind: space, spelling: " ", line: 30, column: 4}
+token_context:
+  29:         do Screen.drawLine(140,94,140,114);       \r$
+  30:     
+         ^
+
+----------------
+token: 474
+    {kind: carriage_return, spelling: "\r", line: 29, column: 51}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:         do Screen.drawLine(140,94,140,114);       \r
+                                                        ^
+
+----------------
+token: 469
+    {kind: space, spelling: " ", line: 29, column: 46}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:         do Screen.drawLine(140,94,140,114);   
+                                                   ^
+
+----------------
+token: 464
+    {kind: number, spelling: "114", line: 29, column: 39}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:         do Screen.drawLine(140,94,140,114
+                                            ^
+
+----------------
+token: 459
+    {kind: ,, spelling: ",", line: 29, column: 31}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:         do Screen.drawLine(140,
+                                    ^
+
+----------------
+token: 454
+    {kind: do, spelling: "do", line: 29, column: 9}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:         do
+              ^
+
+----------------
+token: 449
+    {kind: space, spelling: " ", line: 29, column: 4}
+token_context:
+  28:         do Screen.drawLine(163,85,178,100);       \r$
+  29:     
+         ^
+
+----------------
+token: 444
+    {kind: carriage_return, spelling: "\r", line: 28, column: 51}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:         do Screen.drawLine(163,85,178,100);       \r
+                                                        ^
+
+----------------
+token: 439
+    {kind: space, spelling: " ", line: 28, column: 46}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:         do Screen.drawLine(163,85,178,100);   
+                                                   ^
+
+----------------
+token: 434
+    {kind: number, spelling: "100", line: 28, column: 39}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:         do Screen.drawLine(163,85,178,100
+                                            ^
+
+----------------
+token: 429
+    {kind: ,, spelling: ",", line: 28, column: 31}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:         do Screen.drawLine(163,
+                                    ^
+
+----------------
+token: 424
+    {kind: do, spelling: "do", line: 28, column: 9}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:         do
+              ^
+
+----------------
+token: 419
+    {kind: space, spelling: " ", line: 28, column: 4}
+token_context:
+  27:         do Screen.drawLine(174,60,194,60);       \r$
+  28:     
+         ^
+
+----------------
+token: 414
+    {kind: carriage_return, spelling: "\r", line: 27, column: 50}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:         do Screen.drawLine(174,60,194,60);       \r
+                                                       ^
+
+----------------
+token: 409
+    {kind: space, spelling: " ", line: 27, column: 45}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:         do Screen.drawLine(174,60,194,60);   
+                                                  ^
+
+----------------
+token: 404
+    {kind: number, spelling: "60", line: 27, column: 39}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:         do Screen.drawLine(174,60,194,60
+                                            ^
+
+----------------
+token: 399
+    {kind: ,, spelling: ",", line: 27, column: 31}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:         do Screen.drawLine(174,
+                                    ^
+
+----------------
+token: 394
+    {kind: do, spelling: "do", line: 27, column: 9}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:         do
+              ^
+
+----------------
+token: 389
+    {kind: space, spelling: " ", line: 27, column: 4}
+token_context:
+  26:         do Screen.drawLine(163,35,178,20);       \r$
+  27:     
+         ^
+
+----------------
+token: 384
+    {kind: carriage_return, spelling: "\r", line: 26, column: 50}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:         do Screen.drawLine(163,35,178,20);       \r
+                                                       ^
+
+----------------
+token: 379
+    {kind: space, spelling: " ", line: 26, column: 45}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:         do Screen.drawLine(163,35,178,20);   
+                                                  ^
+
+----------------
+token: 374
+    {kind: number, spelling: "20", line: 26, column: 39}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:         do Screen.drawLine(163,35,178,20
+                                            ^
+
+----------------
+token: 369
+    {kind: ,, spelling: ",", line: 26, column: 31}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:         do Screen.drawLine(163,
+                                    ^
+
+----------------
+token: 364
+    {kind: do, spelling: "do", line: 26, column: 9}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:         do
+              ^
+
+----------------
+token: 359
+    {kind: space, spelling: " ", line: 26, column: 4}
+token_context:
+  25:         do Screen.drawLine(140,26, 140, 6);       \r$
+  26:     
+         ^
+
+----------------
+token: 354
+    {kind: carriage_return, spelling: "\r", line: 25, column: 51}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:         do Screen.drawLine(140,26, 140, 6);       \r
+                                                        ^
+
+----------------
+token: 349
+    {kind: space, spelling: " ", line: 25, column: 46}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:         do Screen.drawLine(140,26, 140, 6);   
+                                                   ^
+
+----------------
+token: 344
+    {kind: number, spelling: "6", line: 25, column: 41}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:         do Screen.drawLine(140,26, 140, 6
+                                              ^
+
+----------------
+token: 339
+    {kind: ,, spelling: ",", line: 25, column: 34}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:         do Screen.drawLine(140,26,
+                                       ^
+
+----------------
+token: 334
+    {kind: identifier, spelling: "Screen.drawLine", line: 25, column: 12}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:         do Screen.drawLine
+                 ^
+
+----------------
+token: 329
+    {kind: space, spelling: " ", line: 25, column: 6}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:       
+           ^
+
+----------------
+token: 324
+    {kind: space, spelling: " ", line: 25, column: 1}
+token_context:
+  24:         do Screen.drawCircle(140,60,30);          // sun\r$
+  25:  
+      ^
+
+----------------
+token: 319
+    {kind: space, spelling: " ", line: 24, column: 47}
+token_context:
+  23: \r$
+  24:         do Screen.drawCircle(140,60,30);       
+                                                    ^
+
+----------------
+token: 314
+    {kind: space, spelling: " ", line: 24, column: 42}
+token_context:
+  23: \r$
+  24:         do Screen.drawCircle(140,60,30);  
+                                               ^
+
+----------------
+token: 309
+    {kind: ,, spelling: ",", line: 24, column: 36}
+token_context:
+  23: \r$
+  24:         do Screen.drawCircle(140,60,
+                                         ^
+
+----------------
+token: 304
+    {kind: identifier, spelling: "Screen.drawCircle", line: 24, column: 12}
+token_context:
+  23: \r$
+  24:         do Screen.drawCircle
+                 ^
+
+----------------
+token: 299
+    {kind: space, spelling: " ", line: 24, column: 6}
+token_context:
+  23: \r$
+  24:       
+           ^
+
+----------------
+token: 294
+    {kind: space, spelling: " ", line: 24, column: 1}
+token_context:
+  23: \r$
+  24:  
+      ^
+
+----------------
+token: 289
+    {kind: space, spelling: " ", line: 22, column: 49}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:         do Screen.drawLine(345,35,410,90);       
+                                                      ^
+
+----------------
+token: 284
+    {kind: space, spelling: " ", line: 22, column: 44}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:         do Screen.drawLine(345,35,410,90);  
+                                                 ^
+
+----------------
+token: 279
+    {kind: ,, spelling: ",", line: 22, column: 38}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:         do Screen.drawLine(345,35,410,
+                                           ^
+
+----------------
+token: 274
+    {kind: number, spelling: "345", line: 22, column: 28}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:         do Screen.drawLine(345
+                                 ^
+
+----------------
+token: 269
+    {kind: space, spelling: " ", line: 22, column: 8}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:         
+             ^
+
+----------------
+token: 264
+    {kind: space, spelling: " ", line: 22, column: 3}
+token_context:
+  21:         do Screen.drawLine(280,90,345,35);        // roof\r$
+  22:    
+        ^
+
+----------------
+token: 259
+    {kind: space, spelling: " ", line: 21, column: 49}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:         do Screen.drawLine(280,90,345,35);       
+                                                      ^
+
+----------------
+token: 254
+    {kind: space, spelling: " ", line: 21, column: 44}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:         do Screen.drawLine(280,90,345,35);  
+                                                 ^
+
+----------------
+token: 249
+    {kind: ,, spelling: ",", line: 21, column: 38}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:         do Screen.drawLine(280,90,345,
+                                           ^
+
+----------------
+token: 244
+    {kind: number, spelling: "280", line: 21, column: 28}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:         do Screen.drawLine(280
+                                 ^
+
+----------------
+token: 239
+    {kind: space, spelling: " ", line: 21, column: 8}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:         
+             ^
+
+----------------
+token: 234
+    {kind: space, spelling: " ", line: 21, column: 3}
+token_context:
+  20:         do Screen.drawCircle(360,170,3);          // door handle\r$
+  21:    
+        ^
+
+----------------
+token: 229
+    {kind: space, spelling: " ", line: 20, column: 49}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:         do Screen.drawCircle(360,170,3);         
+                                                      ^
+
+----------------
+token: 224
+    {kind: space, spelling: " ", line: 20, column: 44}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:         do Screen.drawCircle(360,170,3);    
+                                                 ^
+
+----------------
+token: 219
+    {kind: ), spelling: ")", line: 20, column: 39}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:         do Screen.drawCircle(360,170,3)
+                                            ^
+
+----------------
+token: 214
+    {kind: number, spelling: "360", line: 20, column: 30}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:         do Screen.drawCircle(360
+                                   ^
+
+----------------
+token: 209
+    {kind: space, spelling: " ", line: 20, column: 8}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:         
+             ^
+
+----------------
+token: 204
+    {kind: space, spelling: " ", line: 20, column: 3}
+token_context:
+  19:         do Screen.setColor(true); \r$
+  20:    
+        ^
+
+----------------
+token: 199
+    {kind: space, spelling: " ", line: 19, column: 34}
+token_context:
+  18:         \r$
+  19:         do Screen.setColor(true); 
+                                       ^
+
+----------------
+token: 194
+    {kind: identifier, spelling: "Screen.setColor", line: 19, column: 12}
+token_context:
+  18:         \r$
+  19:         do Screen.setColor
+                 ^
+
+----------------
+token: 189
+    {kind: space, spelling: " ", line: 19, column: 6}
+token_context:
+  18:         \r$
+  19:       
+           ^
+
+----------------
+token: 184
+    {kind: space, spelling: " ", line: 19, column: 1}
+token_context:
+  18:         \r$
+  19:  
+      ^
+
+----------------
+token: 179
+    {kind: space, spelling: " ", line: 18, column: 6}
+token_context:
+  17:         do Screen.drawRectangle(292,120,332,150); // window\r$
+  18:       
+           ^
+
+----------------
+token: 174
+    {kind: space, spelling: " ", line: 18, column: 1}
+token_context:
+  17:         do Screen.drawRectangle(292,120,332,150); // window\r$
+  18:  
+      ^
+
+----------------
+token: 169
+    {kind: number, spelling: "150", line: 17, column: 45}
+token_context:
+  16:         do Screen.drawRectangle(350,120,390,219); // door\r$
+  17:         do Screen.drawRectangle(292,120,332,150
+                                                  ^
+
+----------------
+token: 164
+    {kind: ,, spelling: ",", line: 17, column: 36}
+token_context:
+  16:         do Screen.drawRectangle(350,120,390,219); // door\r$
+  17:         do Screen.drawRectangle(292,
+                                         ^
+
+----------------
+token: 159
+    {kind: do, spelling: "do", line: 17, column: 9}
+token_context:
+  16:         do Screen.drawRectangle(350,120,390,219); // door\r$
+  17:         do
+              ^
+
+----------------
+token: 154
+    {kind: space, spelling: " ", line: 17, column: 4}
+token_context:
+  16:         do Screen.drawRectangle(350,120,390,219); // door\r$
+  17:     
+         ^
+
+----------------
+token: 149
+    {kind: space, spelling: " ", line: 16, column: 50}
+token_context:
+  15:         do Screen.setColor(false); \r$
+  16:         do Screen.drawRectangle(350,120,390,219); 
+                                                       ^
+
+----------------
+token: 144
+    {kind: number, spelling: "390", line: 16, column: 41}
+token_context:
+  15:         do Screen.setColor(false); \r$
+  16:         do Screen.drawRectangle(350,120,390
+                                              ^
+
+----------------
+token: 139
+    {kind: (, spelling: "(", line: 16, column: 32}
+token_context:
+  15:         do Screen.setColor(false); \r$
+  16:         do Screen.drawRectangle(
+                                     ^
+
+----------------
+token: 134
+    {kind: space, spelling: " ", line: 16, column: 7}
+token_context:
+  15:         do Screen.setColor(false); \r$
+  16:        
+            ^
+
+----------------
+token: 129
+    {kind: space, spelling: " ", line: 16, column: 2}
+token_context:
+  15:         do Screen.setColor(false); \r$
+  16:   
+       ^
+
+----------------
+token: 124
+    {kind: ;, spelling: ";", line: 15, column: 34}
+token_context:
+  14:         \r$
+  15:         do Screen.setColor(false);
+                                       ^
+
+----------------
+token: 119
+    {kind: space, spelling: " ", line: 15, column: 11}
+token_context:
+  14:         \r$
+  15:         do 
+                ^
+
+----------------
+token: 114
+    {kind: space, spelling: " ", line: 15, column: 5}
+token_context:
+  14:         \r$
+  15:      
+          ^
+
+----------------
+token: 109
+    {kind: newline, spelling: "\n", line: 14, column: 10}
+token_context:
+  13:         do Screen.drawRectangle(280,90,410,220);  // house\r$
+  14:         \r$
+               ^
+
+----------------
+token: 104
+    {kind: space, spelling: " ", line: 14, column: 5}
+token_context:
+  13:         do Screen.drawRectangle(280,90,410,220);  // house\r$
+  14:      
+          ^
+
+----------------
+token: 99
+    {kind: eol_comment, spelling: " house\r", line: 13, column: 51}
+token_context:
+  12:         do Screen.drawLine(0,220,511,220);        // base line\r$
+  13:         do Screen.drawRectangle(280,90,410,220);  // house\r$
+                                                        ^
+
+----------------
+token: 94
+    {kind: number, spelling: "220", line: 13, column: 44}
+token_context:
+  12:         do Screen.drawLine(0,220,511,220);        // base line\r$
+  13:         do Screen.drawRectangle(280,90,410,220
+                                                 ^
+
+----------------
+token: 89
+    {kind: ,, spelling: ",", line: 13, column: 36}
+token_context:
+  12:         do Screen.drawLine(0,220,511,220);        // base line\r$
+  13:         do Screen.drawRectangle(280,
+                                         ^
+
+----------------
+token: 84
+    {kind: do, spelling: "do", line: 13, column: 9}
+token_context:
+  12:         do Screen.drawLine(0,220,511,220);        // base line\r$
+  13:         do
+              ^
+
+----------------
+token: 79
+    {kind: space, spelling: " ", line: 13, column: 4}
+token_context:
+  12:         do Screen.drawLine(0,220,511,220);        // base line\r$
+  13:     
+         ^
+
+----------------
+token: 74
+    {kind: space, spelling: " ", line: 12, column: 50}
+token_context:
+  11:     \r$
+  12:         do Screen.drawLine(0,220,511,220);        
+                                                       ^
+
+----------------
+token: 69
+    {kind: space, spelling: " ", line: 12, column: 45}
+token_context:
+  11:     \r$
+  12:         do Screen.drawLine(0,220,511,220);   
+                                                  ^
+
+----------------
+token: 64
+    {kind: number, spelling: "220", line: 12, column: 38}
+token_context:
+  11:     \r$
+  12:         do Screen.drawLine(0,220,511,220
+                                           ^
+
+----------------
+token: 59
+    {kind: ,, spelling: ",", line: 12, column: 29}
+token_context:
+  11:     \r$
+  12:         do Screen.drawLine(0,
+                                  ^
+
+----------------
+token: 54
+    {kind: do, spelling: "do", line: 12, column: 9}
+token_context:
+  11:     \r$
+  12:         do
+              ^
+
+----------------
+token: 49
+    {kind: space, spelling: " ", line: 12, column: 4}
+token_context:
+  11:     \r$
+  12:     
+         ^
+
+----------------
+token: 44
+    {kind: carriage_return, spelling: "\r", line: 11, column: 5}
+token_context:
+  10:     function void main() {\r$
+  11:     \r
+          ^
+
+----------------
+token: 39
+    {kind: newline, spelling: "\n", line: 10, column: 28}
+token_context:
+   9:     /** Draws a sample pictue on the screen using lines and circles. */\r$
+  10:     function void main() {\r$
+                                 ^
+
+----------------
+token: 34
+    {kind: (, spelling: "(", line: 10, column: 23}
+token_context:
+   9:     /** Draws a sample pictue on the screen using lines and circles. */\r$
+  10:     function void main(
+                            ^
+
+----------------
+token: 29
+    {kind: identifier, spelling: "function", line: 10, column: 5}
+token_context:
+   9:     /** Draws a sample pictue on the screen using lines and circles. */\r$
+  10:     function
+          ^
+
+----------------
+token: 24
+    {kind: newline, spelling: "\n", line: 9, column: 73}
+token_context:
+   8: \r$
+   9:     /** Draws a sample pictue on the screen using lines and circles. */\r$
+                                                                              ^
+
+----------------
+token: 19
+    {kind: space, spelling: " ", line: 9, column: 2}
+token_context:
+   8: \r$
+   9:   
+       ^
+
+----------------
+token: 14
+    {kind: carriage_return, spelling: "\r", line: 7, column: 13}
+token_context:
+   6: /** Test program for the OS Screen class. */\r$
+   7: class Main {\r
+                  ^
+
+----------------
+token: 9
+    {kind: identifier, spelling: "class", line: 7, column: 1}
+token_context:
+   6: /** Test program for the OS Screen class. */\r$
+   7: class
+      ^
+
+----------------
+token: 4
+    {kind: carriage_return, spelling: "\r", line: 5, column: 1}
+token_context:
+   4: // File name: projects/12/ScreenTest/Main.jack\r$
+   5: \r
+      ^
+
+----------------

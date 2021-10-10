@@ -1,0 +1,601 @@
+{kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r"}
+{kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r"}
+{kind: eol_comment, spelling: " by Nisan and Schocken, MIT Press.\r"}
+{kind: eol_comment, spelling: " File name: projects/12/ScreenTest/Main.jack\r"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: adhoc_comment, spelling: "* Test program for the OS Screen class. "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "class"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Main"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: adhoc_comment, spelling: "* Draws a sample pictue on the screen using lines and circles. "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "function"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "void"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "main"}
+{kind: (, spelling: "("}
+{kind: ), spelling: ")"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "0"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "220"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "511"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "220"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " base line\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawRectangle"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "280"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "90"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "410"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "220"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " house\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.setColor"}
+{kind: (, spelling: "("}
+{kind: identifier, spelling: "false"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawRectangle"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "350"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "120"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "390"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "219"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " door\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawRectangle"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "292"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "120"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "332"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "150"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " window\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.setColor"}
+{kind: (, spelling: "("}
+{kind: identifier, spelling: "true"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawCircle"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "360"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "170"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "3"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " door handle\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "280"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "90"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "345"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "35"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " roof\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "345"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "35"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "410"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "90"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " roof\r"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawCircle"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "140"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "60"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "30"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: eol_comment, spelling: " sun\r"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "140"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "26"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: number, spelling: "140"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: number, spelling: "6"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "163"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "35"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "178"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "20"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "174"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "60"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "194"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "60"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "163"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "85"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "178"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "100"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "140"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "94"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "140"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "114"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "117"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "85"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "102"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "100"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "106"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "60"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "86"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "60"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Screen.drawLine"}
+{kind: (, spelling: "("}
+{kind: number, spelling: "117"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "35"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "102"}
+{kind: ,, spelling: ","}
+{kind: number, spelling: "20"}
+{kind: ), spelling: ")"}
+{kind: ;, spelling: ";"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "return"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: }, spelling: "}"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: }, spelling: "}"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+Read 600 tokens

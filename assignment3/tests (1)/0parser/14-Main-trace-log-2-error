@@ -1,0 +1,14 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_method()
+    3: parse_function()
+    4: parse_subr_body()
+    5: parse_statements()
+error: 
+ 26:                 let mm = Main.newmain() ;
+ 27:                 b 
+                     ^
+Found token "b" but expected "}"
+

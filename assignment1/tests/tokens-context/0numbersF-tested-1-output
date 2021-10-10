@@ -1,0 +1,52 @@
+Read 27 tokens
+Token Contexts:
+
+token: 0
+    {kind: number, spelling: "0", line: 1, column: 1}
+token_context:
+   1: 0
+      ^
+
+----------------
+token: 26
+    {kind: space, spelling: " ", line: 1, column: 72}
+token_context:
+   1: 0 4 0x0.3 3.689 12125.349 888.0 34 0b0000.000000  00008 235.e5 41.4 11. 
+                                                                             ^
+
+----------------
+token: 21
+    {kind: identifier, spelling: "e5", line: 1, column: 61}
+token_context:
+   1: 0 4 0x0.3 3.689 12125.349 888.0 34 0b0000.000000  00008 235.e5
+                                                                  ^
+
+----------------
+token: 16
+    {kind: space, spelling: " ", line: 1, column: 50}
+token_context:
+   1: 0 4 0x0.3 3.689 12125.349 888.0 34 0b0000.000000  
+                                                       ^
+
+----------------
+token: 11
+    {kind: space, spelling: " ", line: 1, column: 32}
+token_context:
+   1: 0 4 0x0.3 3.689 12125.349 888.0 
+                                     ^
+
+----------------
+token: 6
+    {kind: number, spelling: "3.689", line: 1, column: 11}
+token_context:
+   1: 0 4 0x0.3 3.689
+                ^
+
+----------------
+token: 1
+    {kind: space, spelling: " ", line: 1, column: 2}
+token_context:
+   1: 0 
+       ^
+
+----------------

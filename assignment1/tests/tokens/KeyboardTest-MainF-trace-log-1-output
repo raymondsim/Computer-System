@@ -1,0 +1,114 @@
+{kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r"}
+{kind: eol_comment, spelling: " and the book "The Elements of Computing Systems"\r"}
+{kind: eol_comment, spelling: " by Nisan and Schocken, MIT Press.\r"}
+{kind: eol_comment, spelling: " File name: projects/12/KeyboardTest/Main.jack\r"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: adhoc_comment, spelling: "* Test program for the OS Keyboard class. "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "class"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "Main"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: adhoc_comment, spelling: "* Gets input from the user and verifies its contents. "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "function"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "void"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "main"}
+{kind: (, spelling: "("}
+{kind: ), spelling: ")"}
+{kind: space, spelling: " "}
+{kind: {, spelling: "{"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "char"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "c"}
+{kind: ,, spelling: ","}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "key"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "String"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "s"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "int"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "i"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: tab, spelling: "\t"}
+{kind: identifier, spelling: "var"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "boolean"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "ok"}
+{kind: ;, spelling: ";"}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: carriage_return, spelling: "\r"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "let"}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "ok"}
+{kind: space, spelling: " "}
+Read 113 tokens

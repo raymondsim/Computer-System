@@ -1,0 +1,27 @@
+// Sum
+
+
+class Main{
+        function int sum(int x, int y){
+
+        var int sum;
+        let sum = x + y;
+        return sum;
+
+        }
+
+        function void main(){
+
+        var int x;
+        var int y;
+
+        let x = Unix.readInt("");
+        let y = Unix.readInt("");
+
+        do Unix.printInt(Main.sum(x,y));
+        do Unix.println();
+
+        return;
+
+        }
+}

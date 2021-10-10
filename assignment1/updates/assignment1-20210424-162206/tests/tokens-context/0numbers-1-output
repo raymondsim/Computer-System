@@ -1,0 +1,38 @@
+Read 19 tokens
+Token Contexts:
+
+token: 0
+    {kind: space, spelling: " ", line: 1, column: 1}
+token_context:
+   1:  
+      ^
+
+----------------
+token: 18
+    {kind: newline, spelling: "\n", line: 1, column: 43}
+token_context:
+   1:  0 4 036 012125 0x888 34 000 235 0b1111111$
+                                                ^
+
+----------------
+token: 13
+    {kind: number, spelling: "000", line: 1, column: 26}
+token_context:
+   1:  0 4 036 012125 0x888 34 000
+                               ^
+
+----------------
+token: 8
+    {kind: space, spelling: " ", line: 1, column: 16}
+token_context:
+   1:  0 4 036 012125 
+                     ^
+
+----------------
+token: 3
+    {kind: number, spelling: "4", line: 1, column: 4}
+token_context:
+   1:  0 4
+         ^
+
+----------------

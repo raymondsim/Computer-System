@@ -1,0 +1,26 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_function()
+    3: parse_subr_body()
+    4: parse_statements()
+    5: parse_statement()
+    6: parse_statement()
+    7: parse_statement()
+    8: parse_statement()
+    9: parse_statement()
+   10: parse_statement()
+   11: parse_statement()
+   12: parse_let()
+   13: parse_index()
+   14: parse_expr()
+   15: parse_term()
+   16: parse_var_term()
+   17: parse_var_dec()
+error: 
+ 22:         let a[5] = 4;
+ 23:         let b[a[3]] 
+                       ^
+Found token "]" but expected "var"
+

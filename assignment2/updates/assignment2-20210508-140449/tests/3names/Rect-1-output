@@ -1,0 +1,27 @@
+        @SP
+        D=M
+        @L1
+        D;JLE
+        @v_0
+        M=D
+        @16384
+        D=A
+        @v_1
+        M=D
+(L0)
+        @v_1
+        A=M
+        M=-1
+        @v_1
+        D=M
+        @32
+        D=D+A
+        @v_1
+        M=D
+        @v_0
+        MD=M-1
+        @L0
+        D;JGT
+(L1)
+        @L1
+        0;JMP

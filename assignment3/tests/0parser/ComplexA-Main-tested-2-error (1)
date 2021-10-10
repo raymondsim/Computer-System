@@ -1,0 +1,6 @@
+
+ 22:         let a[5] = 4;
+ 23:         let b[a[3]] 
+                       ^
+Found token "]" but expected "var"
+

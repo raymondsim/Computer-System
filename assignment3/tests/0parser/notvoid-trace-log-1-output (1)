@@ -1,0 +1,32 @@
+<class>
+  <class-name>Main</class-name>
+  <class-var-decs>
+  </class-var-decs>
+  <subr-decs>
+    <subr>
+      <function>
+        <vtype>void</vtype>
+        <name>main</name>
+        <param-list>
+        </param-list>
+        <subr-body>
+          <var-decs>
+          </var-decs>
+          <statements>
+            <statement>
+              <return-expr>
+                <expr>
+                  <term>
+                    <int>
+                      <ic>43</ic>
+                    </int>
+                  </term>
+                </expr>
+              </return-expr>
+            </statement>
+          </statements>
+        </subr-body>
+      </function>
+    </subr>
+  </subr-decs>
+</class>

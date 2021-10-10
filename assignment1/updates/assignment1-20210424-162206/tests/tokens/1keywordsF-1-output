@@ -1,0 +1,11 @@
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "while"}
+{kind: newline, spelling: "\n"}
+{kind: newline, spelling: "\n"}
+{kind: identifier, spelling: "constructor"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "if"}
+Read 10 tokens

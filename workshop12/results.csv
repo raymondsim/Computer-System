@@ -1,0 +1,75 @@
+Program,Iterations,Size,Direction,Time,Million Reads / Second,Hostname,CPU,Cores/Threads,L1i Cache,L1d Cache,L2 Cache,L3 Cache,Memory
+php loop.php,40000,1024,asc,1.82,23,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,40000,1024,dsc,1.86,22,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,40000,1024,random,1.79,23,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,20000,2048,asc,1.78,23,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,20000,2048,dsc,1.83,22,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,20000,2048,random,1.8,23,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,10000,4096,asc,1.83,22,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,10000,4096,dsc,1.92,21,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,10000,4096,random,1.9,22,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,30,1048576,asc,1.5,21,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,30,1048576,dsc,1.6,20,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,30,1048576,random,4.16,8,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,2,16777216,asc,1.64,20,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,2,16777216,dsc,1.61,21,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+php loop.php,2,16777216,random,5.41,6,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500000,1024,asc,0.915985,558,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500000,1024,dsc,0.908367,563,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500000,1024,random,0.921533,555,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,150000,4096,asc,1.08977,563,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,150000,4096,dsc,1.07849,569,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,150000,4096,random,1.07674,570,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30000,16384,asc,0.887703,553,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30000,16384,dsc,0.862636,569,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30000,16384,random,0.908641,540,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500,1048576,asc,0.96709,542,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500,1048576,dsc,0.961351,545,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,500,1048576,random,1.60962,325,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30,16777216,asc,0.895279,562,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30,16777216,dsc,0.972792,517,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,30,16777216,random,8.51939,59,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,2,268435456,asc,1.02147,525,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,2,268435456,dsc,1.0611,505,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,2,268435456,random,14.0769,38,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,1,536870912,asc,1.01771,527,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,1,536870912,dsc,1.04388,514,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O0,1,536870912,random,19.4119,27,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000000,1024,asc,1.01314,3032,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000000,1024,dsc,1.01455,3027,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000000,1024,random,1.02075,3009,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,800000,4096,asc,1.05278,3112,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,800000,4096,dsc,1.0533,3110,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,800000,4096,random,1.06872,3066,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,200000,16384,asc,1.3131,2495,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,200000,16384,dsc,1.12444,2914,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,200000,16384,random,1.34433,2437,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000,1048576,asc,1.27939,2458,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000,1048576,dsc,1.41836,2217,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3000,1048576,random,6.45523,487,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,250,16777216,asc,2.0484,2047,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,250,16777216,dsc,2.46799,1699,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,250,16777216,random,82.3017,50,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,15,268435456,asc,1.92102,2096,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,15,268435456,dsc,2.33113,1727,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,15,268435456,random,137.563,29,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3,536870912,asc,0.897579,1794,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3,536870912,dsc,1.01095,1593,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O1,3,536870912,random,64.5702,24,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,6000000,1024,asc,1.5978,3845,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,6000000,1024,dsc,1.58622,3873,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,6000000,1024,random,1.59551,3850,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,1500000,4096,asc,1.62763,3774,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,1500000,4096,dsc,1.6252,3780,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,1500000,4096,random,1.66167,3697,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,400000,16384,asc,2.59801,2522,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,400000,16384,dsc,1.98695,3298,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,400000,16384,random,2.6594,2464,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,5000,1048576,asc,1.94093,2701,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,5000,1048576,dsc,2.16965,2416,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,5000,1048576,random,10.5585,496,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,300,16777216,asc,2.51797,1998,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,300,16777216,dsc,2.99438,1680,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,300,16777216,random,83.0824,60,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,20,268435456,asc,2.77131,1937,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB
+lib/macos/loop-O3,20,268435456,dsc,3.17043,1693,Raymonds-MBP.modem,Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz,6c/12t,32KB,32KB,256KB,9MB,16GB

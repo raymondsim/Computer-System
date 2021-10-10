@@ -1,0 +1,22 @@
+
+***** Fatal error!
+    0: parse_class()
+    1: parse_subr_decs()
+    2: parse_method()
+    3: parse_function()
+    4: parse_subr_body()
+    5: parse_statements()
+    6: parse_statement()
+    7: parse_statement()
+    8: parse_let()
+    9: parse_expr()
+   10: parse_term()
+   11: parse_var_term()
+   12: parse_id_call()
+   13: parse_call()
+error: 
+ 26:                 let mm = Main.newmain() ;
+ 27:                 let b = mm.returnaa[4
+                                        ^
+Found token "[" but expected "("
+

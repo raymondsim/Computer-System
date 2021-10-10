@@ -1,0 +1,8 @@
+// this is a test of diff kinds of comments
+
+// qwertyuio		~~~~~~~~~
+
+/* hello where am I? 
+ /*=== and this probably	 fails as
+   //////////
+a comment */

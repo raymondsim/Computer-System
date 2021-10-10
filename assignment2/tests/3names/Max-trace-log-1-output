@@ -1,0 +1,19 @@
+        @SP
+        D=M
+        @LCL
+        D=D-M
+        @L0
+        D;JGT
+        @LCL
+        D=M
+        @L1
+        0;JMP
+(L0)
+        @SP
+        D=M
+(L1)
+        @ARG
+        M=D
+(L2)
+        @L2
+        0;JMP

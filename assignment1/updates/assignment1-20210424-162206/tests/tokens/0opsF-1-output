@@ -1,0 +1,36 @@
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: identifier, spelling: "a"}
+{kind: !=, spelling: "!="}
+{kind: identifier, spelling: "b"}
+{kind: /, spelling: "/"}
+{kind: ==, spelling: "=="}
+{kind: number, spelling: "3"}
+{kind: !=, spelling: "!="}
+{kind: number, spelling: "1"}
+{kind: ==, spelling: "=="}
+{kind: number, spelling: "38"}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ,, spelling: ","}
+{kind: ==, spelling: "=="}
+{kind: ==, spelling: "=="}
+{kind: ==, spelling: "=="}
+{kind: ==, spelling: "=="}
+{kind: ., spelling: "."}
+{kind: <=>, spelling: "<=>"}
+{kind: <=>, spelling: "<=>"}
+{kind: <=>, spelling: "<=>"}
+{kind: ==, spelling: "=="}
+{kind: eol_comment, spelling: "///////832"}
+Read 35 tokens

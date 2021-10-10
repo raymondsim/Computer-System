@@ -1,0 +1,6 @@
+
+ 25:         while (i < length) {
+ 26:             let sum = sum + a[i];
+                                     ^
+Found token ";" but expected "var"
+

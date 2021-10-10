@@ -1,0 +1,14 @@
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: @, spelling: "@"}
+{kind: identifier, spelling: "hello_mum"}
+{kind: :, spelling: ":"}
+{kind: number, spelling: "17"}
+{kind: newline, spelling: "\n"}
+Read 13 tokens

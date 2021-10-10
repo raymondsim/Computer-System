@@ -1,0 +1,82 @@
+Read 45 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org$
+      ^
+
+----------------
+token: 44
+    {kind: space, spelling: " ", line: 13, column: 28}
+token_context:
+  12:    function void main() {\r$
+  13:        do Output.printInt(1 
+                                 ^
+
+----------------
+token: 39
+    {kind: do, spelling: "do", line: 13, column: 8}
+token_context:
+  12:    function void main() {\r$
+  13:        do
+             ^
+
+----------------
+token: 34
+    {kind: space, spelling: " ", line: 13, column: 3}
+token_context:
+  12:    function void main() {\r$
+  13:    
+        ^
+
+----------------
+token: 29
+    {kind: {, spelling: "{", line: 12, column: 25}
+token_context:
+  11: \r$
+  12:    function void main() {
+                              ^
+
+----------------
+token: 24
+    {kind: space, spelling: " ", line: 12, column: 17}
+token_context:
+  11: \r$
+  12:    function void 
+                      ^
+
+----------------
+token: 19
+    {kind: space, spelling: " ", line: 12, column: 2}
+token_context:
+  11: \r$
+  12:   
+       ^
+
+----------------
+token: 14
+    {kind: carriage_return, spelling: "\r", line: 10, column: 13}
+token_context:
+   9:  */\r$
+  10: class Main {\r
+                  ^
+
+----------------
+token: 9
+    {kind: identifier, spelling: "class", line: 10, column: 1}
+token_context:
+   9:  */\r$
+  10: class
+      ^
+
+----------------
+token: 4
+    {kind: carriage_return, spelling: "\r", line: 5, column: 1}
+token_context:
+   4: // File name: projects/11/Seven/Main.jack$
+   5: \r
+      ^
+
+----------------

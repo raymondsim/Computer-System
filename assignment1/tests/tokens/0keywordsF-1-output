@@ -1,0 +1,22 @@
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: for, spelling: "for"}
+{kind: newline, spelling: "\n"}
+{kind: newline, spelling: "\n"}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: space, spelling: " "}
+{kind: real, spelling: "real"}
+{kind: newline, spelling: "\n"}
+{kind: tab, spelling: "\t"}
+{kind: tab, spelling: "\t"}
+{kind: this, spelling: "this"}
+{kind: newline, spelling: "\n"}
+{kind: do, spelling: "do"}
+{kind: space, spelling: " "}
+{kind: pointer, spelling: "pointer"}
+{kind: space, spelling: " "}
+{kind: for, spelling: "for"}
+{kind: newline, spelling: "\n"}
+Read 21 tokens

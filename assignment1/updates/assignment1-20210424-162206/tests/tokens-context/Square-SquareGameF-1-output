@@ -1,0 +1,154 @@
+Read 90 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 89
+    {kind: space, spelling: " ", line: 25, column: 19}
+token_context:
+  24:     constructor SquareGame new() {\r$
+  25:         let square 
+                        ^
+
+----------------
+token: 84
+    {kind: space, spelling: " ", line: 25, column: 7}
+token_context:
+  24:     constructor SquareGame new() {\r$
+  25:        
+            ^
+
+----------------
+token: 79
+    {kind: space, spelling: " ", line: 25, column: 2}
+token_context:
+  24:     constructor SquareGame new() {\r$
+  25:   
+       ^
+
+----------------
+token: 74
+    {kind: space, spelling: " ", line: 24, column: 33}
+token_context:
+  23:     /** Constructs a new Square Game. */\r$
+  24:     constructor SquareGame new() 
+                                      ^
+
+----------------
+token: 69
+    {kind: identifier, spelling: "SquareGame", line: 24, column: 17}
+token_context:
+  23:     /** Constructs a new Square Game. */\r$
+  24:     constructor SquareGame
+                      ^
+
+----------------
+token: 64
+    {kind: space, spelling: " ", line: 24, column: 2}
+token_context:
+  23:     /** Constructs a new Square Game. */\r$
+  24:   
+       ^
+
+----------------
+token: 59
+    {kind: space, spelling: " ", line: 23, column: 4}
+token_context:
+  22: \r$
+  23:     
+         ^
+
+----------------
+token: 54
+    {kind: carriage_return, spelling: "\r", line: 22, column: 1}
+token_context:
+  21:     field int direction; // 0=none,1=up,2=down,3=left,4=right\r$
+  22: \r
+      ^
+
+----------------
+token: 49
+    {kind: space, spelling: " ", line: 21, column: 14}
+token_context:
+  20:     // The square's movement direction\r$
+  21:     field int 
+                   ^
+
+----------------
+token: 44
+    {kind: space, spelling: " ", line: 21, column: 3}
+token_context:
+  20:     // The square's movement direction\r$
+  21:    
+        ^
+
+----------------
+token: 39
+    {kind: space, spelling: " ", line: 20, column: 3}
+token_context:
+  19: \r$
+  20:    
+        ^
+
+----------------
+token: 34
+    {kind: newline, spelling: "\n", line: 18, column: 26}
+token_context:
+  17:     // The square\r$
+  18:     field Square square;\r$
+                               ^
+
+----------------
+token: 29
+    {kind: identifier, spelling: "Square", line: 18, column: 11}
+token_context:
+  17:     // The square\r$
+  18:     field Square
+                ^
+
+----------------
+token: 24
+    {kind: space, spelling: " ", line: 18, column: 2}
+token_context:
+  17:     // The square\r$
+  18:   
+       ^
+
+----------------
+token: 19
+    {kind: space, spelling: " ", line: 17, column: 2}
+token_context:
+  16: \r$
+  17:   
+       ^
+
+----------------
+token: 14
+    {kind: carriage_return, spelling: "\r", line: 15, column: 19}
+token_context:
+  14:  */\r$
+  15: class SquareGame {\r
+                        ^
+
+----------------
+token: 9
+    {kind: identifier, spelling: "class", line: 15, column: 1}
+token_context:
+  14:  */\r$
+  15: class
+      ^
+
+----------------
+token: 4
+    {kind: carriage_return, spelling: "\r", line: 5, column: 1}
+token_context:
+   4: // File name: projects/09/Square/SquareGame.jack\r$
+   5: \r
+      ^
+
+----------------

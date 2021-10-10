@@ -1,0 +1,130 @@
+Read 74 tokens
+Token Contexts:
+
+token: 0
+    {kind: eol_comment, spelling: " This file is part of www.nand2tetris.org\r", line: 1, column: 1}
+token_context:
+   1: // This file is part of www.nand2tetris.org\r$
+      ^
+
+----------------
+token: 73
+    {kind: space, spelling: " ", line: 15, column: 17}
+token_context:
+  14: \r$
+  15:         let game 
+                      ^
+
+----------------
+token: 68
+    {kind: space, spelling: " ", line: 15, column: 7}
+token_context:
+  14: \r$
+  15:        
+            ^
+
+----------------
+token: 63
+    {kind: space, spelling: " ", line: 15, column: 2}
+token_context:
+  14: \r$
+  15:   
+       ^
+
+----------------
+token: 58
+    {kind: carriage_return, spelling: "\r", line: 13, column: 29}
+token_context:
+  12:     function void main() {\r$
+  13:         var SquareGame game;\r
+                                  ^
+
+----------------
+token: 53
+    {kind: space, spelling: " ", line: 13, column: 12}
+token_context:
+  12:     function void main() {\r$
+  13:         var 
+                 ^
+
+----------------
+token: 48
+    {kind: space, spelling: " ", line: 13, column: 5}
+token_context:
+  12:     function void main() {\r$
+  13:      
+          ^
+
+----------------
+token: 43
+    {kind: newline, spelling: "\n", line: 12, column: 28}
+token_context:
+  11:     /** Initializes a new game and starts it. */    \r$
+  12:     function void main() {\r$
+                                 ^
+
+----------------
+token: 38
+    {kind: (, spelling: "(", line: 12, column: 23}
+token_context:
+  11:     /** Initializes a new game and starts it. */    \r$
+  12:     function void main(
+                            ^
+
+----------------
+token: 33
+    {kind: identifier, spelling: "function", line: 12, column: 5}
+token_context:
+  11:     /** Initializes a new game and starts it. */    \r$
+  12:     function
+          ^
+
+----------------
+token: 28
+    {kind: newline, spelling: "\n", line: 11, column: 54}
+token_context:
+  10: \r$
+  11:     /** Initializes a new game and starts it. */    \r$
+                                                           ^
+
+----------------
+token: 23
+    {kind: space, spelling: " ", line: 11, column: 49}
+token_context:
+  10: \r$
+  11:     /** Initializes a new game and starts it. */ 
+                                                      ^
+
+----------------
+token: 18
+    {kind: space, spelling: " ", line: 11, column: 1}
+token_context:
+  10: \r$
+  11:  
+      ^
+
+----------------
+token: 13
+    {kind: {, spelling: "{", line: 9, column: 12}
+token_context:
+   8:  */\r$
+   9: class Main {
+                 ^
+
+----------------
+token: 8
+    {kind: newline, spelling: "\n", line: 8, column: 5}
+token_context:
+   7:  * The Main class initializes a new Square Dance game and starts it.\r$
+   8:  */\r$
+          ^
+
+----------------
+token: 3
+    {kind: eol_comment, spelling: " File name: projects/09/Square/Main.jack\r", line: 4, column: 1}
+token_context:
+   3: // by Nisan and Schocken, MIT Press.\r$
+   4: // File name: projects/09/Square/Main.jack\r$
+      ^
+
+----------------

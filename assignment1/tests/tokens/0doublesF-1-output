@@ -1,0 +1,37 @@
+{kind: space, spelling: " "}
+{kind: number, spelling: "0"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "4"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "36"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0x12.1F25"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "888"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "34"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0b000"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "235"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0xFF.FFFFF"}
+{kind: newline, spelling: "\n"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "4.36"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "12.125"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "012.125"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "888"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "34"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "0"}
+{kind: space, spelling: " "}
+{kind: number, spelling: "235"}
+{kind: newline, spelling: "\n"}
+Read 36 tokens

@@ -1,0 +1,5 @@
+***** Fatal error!
+  16: \r$
+  17:         let game = 
+                        ^
+Expected: "=" but found: " "

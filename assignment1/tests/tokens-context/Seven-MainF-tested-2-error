@@ -1,0 +1,5 @@
+***** Fatal error!
+  12:    function void main() {\r$
+  13:        do Output.printInt(1 +
+                                  ^
+Expected: "a character that can start a token" but found: "+"
